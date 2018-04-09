@@ -1,0 +1,2073 @@
+[ 2017-09-19T08:49:22+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001981s ]
+
+[ 2017-09-19T08:49:31+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002726s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `doctor` WHERE `doctorid` = 'admin'  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\arms\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\arms\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\arms\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\arms\ThinkPHP\Common\functions.php 第 990 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000708s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003399s ]
+
+[ 2017-09-19T08:49:32+08:00 ] 127.0.0.1 /arms/index.php?m=&&m=admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000389s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002976s ]
+
+[ 2017-09-19T08:49:37+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002064s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0215s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0221s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0208s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000271s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000709s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002933s ]
+
+[ 2017-09-19T08:49:47+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005862s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0259s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0026s ]
+SQL: SELECT `name` FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000450s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001197s ]
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003430s ]
+
+[ 2017-09-19T08:55:04+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004369s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0222s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0225s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0230s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000457s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004486s ]
+
+[ 2017-09-19T08:55:18+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002219s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0220s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0029s ]
+SQL: SELECT `name` FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000454s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001237s ]
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [2] Illegal string offset 'name' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 86 行.
+NOTIC: [2] Illegal string offset 'idnumber' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 87 行.
+NOTIC: [2] Illegal string offset 'visitnoticestate' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 88 行.
+NOTIC: [2] Illegal string offset 'visitnoticetime' D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms\Application\Runtime\Cache\Admin\c3429fae21a0c7e12fbb6c9ce58c30d9.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002172s ]
+
+[ 2017-09-19T08:56:57+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000402s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002181s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0236s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0208s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0243s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000667s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001504s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002062s ]
+
+[ 2017-09-19T09:13:50+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003628s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.1200s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0391s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0397s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000423s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003689s ]
+
+[ 2017-09-19T09:13:58+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002168s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0390s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE ( (a.name like "%$search%") )  [ RunTime:0.0185s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000791s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003469s ]
+
+[ 2017-09-19T09:14:03+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002177s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0238s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE ( (a.name like "%$search%") )  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000729s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003049s ]
+
+[ 2017-09-19T09:14:09+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002154s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0418s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE ( (a.name like "%$search%") )  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000693s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004721s ]
+
+[ 2017-09-19T09:14:22+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002157s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0233s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0218s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0247s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000299s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000741s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003257s ]
+
+[ 2017-09-19T09:14:27+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003049s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0209s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE ( (a.name like "%$search%") )  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000429s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004502s ]
+
+[ 2017-09-19T09:14:55+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003727s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0225s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE ( (a.name like "%$a%") )  [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000708s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002215s ]
+
+[ 2017-09-19T09:14:57+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003731s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0222s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0204s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0201s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000439s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002076s ]
+
+[ 2017-09-19T09:15:01+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004164s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0200s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE ( (a.name like "%$a%") )  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000300s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000843s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002013s ]
+
+[ 2017-09-19T09:15:22+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004416s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0277s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE ( (a.name like "%$a%") )  [ RunTime:0.0036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000704s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002621s ]
+
+[ 2017-09-19T09:18:39+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002472s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0336s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0247s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0236s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000368s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000818s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004447s ]
+
+[ 2017-09-19T09:18:43+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000130s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002960s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0278s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE `name` LIKE '% $a %'  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000436s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002249s ]
+
+[ 2017-09-19T09:18:53+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002120s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0257s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0251s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0242s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000680s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002418s ]
+
+[ 2017-09-19T09:18:58+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002021s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0220s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE `name` LIKE '% $a %'  [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000418s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001804s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003624s ]
+
+[ 2017-09-19T09:22:52+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008941s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.5715s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.1111s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.1003s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000687s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.616814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.617749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005993s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019911s ]
+
+[ 2017-09-19T09:22:55+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002372s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0529s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.1354s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0444s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000418s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002337s ]
+
+[ 2017-09-19T09:22:59+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002082s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0225s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE `name` LIKE '%路西法%'  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000431s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002034s ]
+
+[ 2017-09-19T09:23:11+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003285s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0221s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE `name` LIKE '%cbvb%'  [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000684s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002092s ]
+
+[ 2017-09-19T09:27:15+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003776s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0261s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0262s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0242s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000439s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001351s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002780s ]
+
+[ 2017-09-19T09:27:21+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003951s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0221s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE `name` LIKE '%路%'  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000307s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000907s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003125s ]
+
+[ 2017-09-19T09:27:26+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002013s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0250s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE `name` LIKE '%西%'  [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000421s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002435s ]
+
+[ 2017-09-19T09:27:32+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003026s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0206s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE `name` LIKE '%c%'  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000656s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002853s ]
+
+[ 2017-09-19T09:42:46+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003706s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0440s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.2623s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0456s ]
+SQL: INSERT INTO `patient` (`patientid`,`name`,`sex`,`birthyear`,`birthmonth`,`birthday`,`idnumber`,`address`,`mobilephonenumber`,`phonenumber`,`wechatnumber`,`medicalhistory1`,`previoushistory1`,`familyhistory1`,`medicalhistory2`,`familyhistory2`,`reimbursementcategory`) VALUES ('433465','发到','男','1982','9','19','433465','','','','','','','','./Public/Uploads/59c07615f0dce.jpg','./Public/Uploads/59c07615f0dce.jpg','1') [ RunTime:0.0834s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000648s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001664s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003251s ]
+
+[ 2017-09-19T09:44:36+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003268s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0234s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0214s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0010s ]
+SQL: INSERT INTO `patient` (`patientid`,`name`,`sex`,`birthyear`,`birthmonth`,`birthday`,`idnumber`,`address`,`mobilephonenumber`,`phonenumber`,`wechatnumber`,`medicalhistory1`,`previoushistory1`,`familyhistory1`,`medicalhistory2`,`familyhistory2`,`reimbursementcategory`) VALUES ('45446666','VB','男','1971','3','30','45446666','','','','','','','','./Public/Uploads/59c07684d8e56.jpg','./Public/Uploads/59c07684d8e56.jpg','1') [ RunTime:0.0272s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000428s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001917s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003210s ]
+
+[ 2017-09-19T09:49:50+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005218s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0283s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0233s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0255s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000332s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000951s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003849s ]
+
+[ 2017-09-19T09:50:13+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004754s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0301s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0276s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0016s ]
+SQL: INSERT INTO `patient` (`patientid`,`name`,`sex`,`birthyear`,`birthmonth`,`birthday`,`idnumber`,`address`,`mobilephonenumber`,`phonenumber`,`wechatnumber`,`medicalhistory1`,`previoushistory1`,`familyhistory1`,`medicalhistory2`,`familyhistory2`,`reimbursementcategory`) VALUES ('223','点睡','男','0','0','0','223','','','','','','','','./Public/Uploads/59c077d5c5d6f.jpg','./Public/Uploads/59c077d5c5d6f.jpg','1') [ RunTime:0.0064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005632s ]
+
+[ 2017-09-19T09:50:29+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002705s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0227s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0017s ]
+ERR: 1062:Duplicate entry '223' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `patient` (`patientid`,`name`,`sex`,`birthyear`,`birthmonth`,`birthday`,`idnumber`,`address`,`mobilephonenumber`,`phonenumber`,`wechatnumber`,`medicalhistory1`,`previoushistory1`,`familyhistory1`,`medicalhistory2`,`familyhistory2`,`reimbursementcategory`) VALUES ('223','点睡','男','0','0','0','223','','','','','','','','./Public/Uploads/59c077e5c7683.jpg','./Public/Uploads/59c077e5c7683.jpg','1')
+ERR: 1062:Duplicate entry '223' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `patient` (`patientid`,`name`,`sex`,`birthyear`,`birthmonth`,`birthday`,`idnumber`,`address`,`mobilephonenumber`,`phonenumber`,`wechatnumber`,`medicalhistory1`,`previoushistory1`,`familyhistory1`,`medicalhistory2`,`familyhistory2`,`reimbursementcategory`) VALUES ('223','点睡','男','0','0','0','223','','','','','','','','./Public/Uploads/59c077e5c7683.jpg','./Public/Uploads/59c077e5c7683.jpg','1')
+
+[ 2017-09-19T09:51:38+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002792s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0222s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000353s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003602s ]
+
+[ 2017-09-19T09:51:57+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003737s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0267s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003700s ]
+
+[ 2017-09-19T09:56:50+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002762s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0229s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002720s ]
+
+[ 2017-09-19T10:02:12+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004679s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0296s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004905s ]
+
+[ 2017-09-19T10:10:58+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000165s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004224s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0568s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0308s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003798s ]
+
+[ 2017-09-19T10:11:30+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004438s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0384s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 223 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 223 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 223 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0249s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004386s ]
+
+[ 2017-09-19T10:15:17+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002672s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0271s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002842s ]
+
+[ 2017-09-19T10:15:48+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002679s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0271s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000642s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002474s ]
+
+[ 2017-09-19T10:16:09+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003739s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0232s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000796s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001841s ]
+
+[ 2017-09-19T10:17:33+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003888s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0236s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002811s ]
+
+[ 2017-09-19T10:19:41+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003799s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0331s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000444s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001620s ]
+
+[ 2017-09-19T10:21:15+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002540s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0273s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0244s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003504s ]
+
+[ 2017-09-19T10:23:29+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004160s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0237s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000361s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001683s ]
+
+[ 2017-09-19T10:23:38+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003533s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0199s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000362s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000961s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002515s ]
+
+[ 2017-09-19T10:24:39+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004372s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0218s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002961s ]
+
+[ 2017-09-19T10:25:27+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002621s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0311s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000380s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001916s ]
+
+[ 2017-09-19T10:26:01+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003328s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0211s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003192s ]
+
+[ 2017-09-19T10:26:48+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004648s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0246s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 226 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 226 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 226 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0218s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003100s ]
+
+[ 2017-09-19T10:29:29+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004766s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0248s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 226 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 226 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 226 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0202s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003029s ]
+
+[ 2017-09-19T10:30:18+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000127s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002627s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0227s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 226 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 226 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 226 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004042s ]
+
+[ 2017-09-19T10:30:27+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004454s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0256s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004281s ]
+
+[ 2017-09-19T10:30:50+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003579s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0257s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 217 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004261s ]
+
+[ 2017-09-19T10:31:32+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003599s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0213s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 217 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0275s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004963s ]
+
+[ 2017-09-19T10:35:05+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003938s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0233s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined variable: file D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0215s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004496s ]
+
+[ 2017-09-19T10:35:40+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003960s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0238s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-09-19T10:36:26+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004051s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0232s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004599s ]
+
+[ 2017-09-19T10:37:59+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000176s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002575s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0217s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002811s ]
+
+[ 2017-09-19T10:39:23+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003067s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0230s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0212s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003213s ]
+
+[ 2017-09-19T10:40:02+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005028s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0310s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0202s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002834s ]
+
+[ 2017-09-19T10:42:25+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004161s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0218s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: medicalhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 223 行.
+NOTIC: [8] Undefined index: previoushistroy2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined index: familyhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 225 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003885s ]
+
+[ 2017-09-19T10:47:25+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002742s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0229s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: medicalhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 223 行.
+NOTIC: [8] Undefined index: previoushistroy2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined index: familyhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 225 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-09-19T10:48:15+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003710s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0224s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: medicalhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 223 行.
+NOTIC: [8] Undefined index: previoushistroy2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined index: familyhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 225 行.
+NOTIC: [8] Undefined index: medicalhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 227 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003038s ]
+
+[ 2017-09-19T10:48:36+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002764s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0220s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: medicalhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 223 行.
+NOTIC: [8] Undefined index: previoushistroy2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined index: familyhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 225 行.
+NOTIC: [8] Undefined index: medicalhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 227 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002944s ]
+
+[ 2017-09-19T10:49:11+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002578s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0224s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: medicalhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 223 行.
+NOTIC: [8] Undefined index: previoushistroy2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined index: familyhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 225 行.
+NOTIC: [8] Undefined index: medicalhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 227 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003433s ]
+
+[ 2017-09-19T10:49:33+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002865s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0205s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: medicalhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 223 行.
+NOTIC: [8] Undefined index: previoushistroy2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined index: familyhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 225 行.
+NOTIC: [8] Undefined index: medicalhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 227 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002638s ]
+
+[ 2017-09-19T10:50:35+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004234s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0224s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: medicalhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 223 行.
+NOTIC: [8] Undefined index: previoushistroy2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined index: familyhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 225 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 227 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003038s ]
+
+[ 2017-09-19T10:50:43+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000273s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004568s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0243s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: medicalhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 223 行.
+NOTIC: [8] Undefined index: previoushistroy2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined index: familyhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 225 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003052s ]
+
+[ 2017-09-19T10:50:59+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003567s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0220s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: medicalhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 223 行.
+NOTIC: [8] Undefined index: previoushistroy2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined index: familyhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 225 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002667s ]
+
+[ 2017-09-19T10:51:17+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000311s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002957s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0215s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: medicalhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 223 行.
+NOTIC: [8] Undefined index: previoushistroy2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined index: familyhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 225 行.
+NOTIC: [8] Undefined index: medicalhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 227 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002687s ]
+
+[ 2017-09-19T10:51:37+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003058s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0226s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: medicalhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 223 行.
+NOTIC: [8] Undefined index: previoushistroy2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined index: familyhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 225 行.
+NOTIC: [8] Undefined index: medicalhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 227 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002907s ]
+
+[ 2017-09-19T10:54:39+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004520s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0204s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: medicalhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 223 行.
+NOTIC: [8] Undefined index: previoushistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined index: familyhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 225 行.
+NOTIC: [8] Undefined index: medicalhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 227 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003411s ]
+
+[ 2017-09-19T10:55:00+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002717s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0218s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: medicalhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 223 行.
+NOTIC: [8] Undefined index: previoushistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined index: familyhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 225 行.
+NOTIC: [8] Undefined index: medicalhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 227 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003223s ]
+
+[ 2017-09-19T10:55:56+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002540s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0280s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: previoushistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined index: familyhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 225 行.
+NOTIC: [8] Undefined index: medicalhistroy2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 228 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002945s ]
+
+[ 2017-09-19T10:56:24+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003292s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0211s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: previoushistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined index: familyhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 225 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003298s ]
+
+[ 2017-09-19T10:57:57+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002815s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0206s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: previoushistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 224 行.
+NOTIC: [8] Undefined index: familyhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 225 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002945s ]
+
+[ 2017-09-19T10:58:31+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003851s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0229s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: familyhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 225 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0011s ]
+SQL: INSERT INTO `patient` (`patientid`,`name`,`sex`,`birthyear`,`birthmonth`,`birthday`,`idnumber`,`address`,`mobilephonenumber`,`phonenumber`,`wechatnumber`,`medicalhistory1`,`previoushistory1`,`familyhistory1`,`medicalhistory2`,`reimbursementcategory`) VALUES ('111','22','男','0','0','0','111','','','','','','','','./Public/Uploads/1505789911_1599230392.png','1') [ RunTime:0.0149s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000698s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002943s ]
+
+[ 2017-09-19T11:00:04+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002761s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0192s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: medicalhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 223 行.
+NOTIC: [8] Undefined index: familyhistory2 D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 225 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0015s ]
+SQL: INSERT INTO `patient` (`patientid`,`name`,`sex`,`birthyear`,`birthmonth`,`birthday`,`idnumber`,`address`,`mobilephonenumber`,`phonenumber`,`wechatnumber`,`medicalhistory1`,`previoushistory1`,`familyhistory1`,`reimbursementcategory`) VALUES ('222','323','男','0','0','0','222','','','','','','','','1') [ RunTime:0.0062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000676s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002971s ]
+

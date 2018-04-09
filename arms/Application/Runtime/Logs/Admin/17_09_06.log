@@ -1,0 +1,1640 @@
+[ 2017-09-06T15:26:25+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.058108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032125s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000323s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011591s ]
+
+[ 2017-09-06T15:26:32+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003165s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.2520s ]
+SQL: SELECT * FROM `doctor` WHERE `doctorid` = 'admin'  [ RunTime:0.1151s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\arms\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\arms\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\arms\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\arms\ThinkPHP\Common\functions.php 第 990 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000664s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003518s ]
+
+[ 2017-09-06T15:26:34+08:00 ] 127.0.0.1 /arms/index.php?m=&&m=admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000166s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004775s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000564s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004404s ]
+
+[ 2017-09-06T15:26:44+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003395s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.1217s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.1153s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0778s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.1968s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000786s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.394834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.395459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002950s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002856s ]
+
+[ 2017-09-06T15:26:52+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005764s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0376s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0291s ]
+SQL: SELECT * FROM `patient` WHERE `sex` = '男' AND `reimbursementcategory` = 1  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000644s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004473s ]
+
+[ 2017-09-06T15:26:55+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx1&name=cbvb&idnumber=1234
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003683s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0201s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `patient` WHERE `name` = 'cbvb' AND `idnumber` = '1234'  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0214s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE `name` = 'cbvb' AND `idnumber` = '1234'  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000687s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002990s ]
+
+[ 2017-09-06T15:27:11+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000204s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004901s ]
+SQL: SHOW COLUMNS FROM `treatment` [ RunTime:0.0248s ]
+NOTIC: [8] Undefined index: idnumber D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 319 行.
+ERR: 1048:Column 'patientid' cannot be null
+ [ SQL语句 ] : INSERT INTO `treatment` (`patientid`,`doctorid`,`diagnosis1`,`treatmentplan1`,`diseaseassessment1`,`medicaltime`) VALUES (NULL,'admin','萨芬','额问题人吧','消息称v','2017-09-06')
+ERR: 1048:Column 'patientid' cannot be null
+ [ SQL语句 ] : INSERT INTO `treatment` (`patientid`,`doctorid`,`diagnosis1`,`treatmentplan1`,`diseaseassessment1`,`medicaltime`) VALUES (NULL,'admin','萨芬','额问题人吧','消息称v','2017-09-06')
+
+[ 2017-09-06T15:27:31+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx2&name=cbvb&idnumber=1234
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003410s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `patient` WHERE `name` = 'cbvb' AND `idnumber` = '1234'  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000381s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001033s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006022s ]
+
+[ 2017-09-06T15:27:42+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=xxxg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004594s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0227s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '1234'  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0840s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategorycontent` = '省本级医保'  [ RunTime:0.2311s ]
+SQL: UPDATE `patient` SET `idnumber`='322',`reimbursementcategory`='1',`mobilephonenumber`='32421' WHERE `idnumber` = '1234' [ RunTime:0.7631s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '1234'  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000742s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001863s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005081s ]
+
+[ 2017-09-06T15:27:45+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004869s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0226s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0211s ]
+SQL: SELECT * FROM `patient` WHERE `sex` = '男' AND `reimbursementcategory` = 1  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000408s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005539s ]
+
+[ 2017-09-06T15:27:47+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx1&name=cbvb&idnumber=322
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004962s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0218s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0218s ]
+SQL: SELECT * FROM `patient` WHERE `name` = 'cbvb' AND `idnumber` = '322'  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0286s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE `name` = 'cbvb' AND `idnumber` = '322'  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000713s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004491s ]
+
+[ 2017-09-06T15:27:58+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003686s ]
+SQL: SHOW COLUMNS FROM `treatment` [ RunTime:0.0301s ]
+SQL: INSERT INTO `treatment` (`patientid`,`doctorid`,`diagnosis1`,`treatmentplan1`,`diseaseassessment1`,`medicaltime`) VALUES ('1234','admin','32rew','ertyu','hjgr','2017-09-06') [ RunTime:0.0995s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000655s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003447s ]
+
+[ 2017-09-06T15:28:04+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002540s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0441s ]
+SQL: INSERT INTO `visit` (`treatmentid`,`visittime`,`visitproject`) VALUES ('88','2017-9-28','ert') [ RunTime:0.0500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000583s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002597s ]
+
+[ 2017-09-06T15:28:06+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000209s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002245s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0385s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0199s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0183s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.1135s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000686s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002086s ]
+
+[ 2017-09-06T15:28:20+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003195s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0189s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `patient` WHERE `sex` = '男' AND `reimbursementcategory` = 1  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000670s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002045s ]
+
+[ 2017-09-06T15:28:22+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx1&name=cbvb&idnumber=322
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004848s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0208s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `patient` WHERE `name` = 'cbvb' AND `idnumber` = '322'  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0203s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE `name` = 'cbvb' AND `idnumber` = '322'  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000445s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004287s ]
+
+[ 2017-09-06T15:28:27+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzjg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002504s ]
+SQL: SHOW COLUMNS FROM `treatment` [ RunTime:0.0203s ]
+SQL: SELECT * FROM treatment as a INNER JOIN Visit as b on b.treatmentid=a.treatmentid  WHERE `visitconclusion1` = '' AND `doctorid` = 'admin' AND `patientid` = '1234'  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0289s ]
+SQL: UPDATE `visit` SET `visitconclusion1`='trthfgs' WHERE `visitid` = 10 [ RunTime:0.0340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002233s ]
+
+[ 2017-09-06T15:28:30+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002166s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0207s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `patient` WHERE `sex` = '男' AND `reimbursementcategory` = 1  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000670s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002056s ]
+
+[ 2017-09-06T15:28:32+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx1&name=cbvb&idnumber=322
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002235s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0191s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `patient` WHERE `name` = 'cbvb' AND `idnumber` = '322'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0192s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE `name` = 'cbvb' AND `idnumber` = '322'  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000763s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002151s ]
+
+[ 2017-09-06T15:31:45+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002898s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0211s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0195s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000662s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004357s ]
+
+[ 2017-09-06T15:32:52+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002762s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0204s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `patient` WHERE `sex` = '男' AND `reimbursementcategory` = 1  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000673s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005093s ]
+
+[ 2017-09-06T15:32:55+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx1&name=cbvb&idnumber=322
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003311s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0196s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `patient` WHERE `name` = 'cbvb' AND `idnumber` = '322'  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0190s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE `name` = 'cbvb' AND `idnumber` = '322'  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000705s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004831s ]
+
+[ 2017-09-06T15:32:57+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx2&name=cbvb&idnumber=322
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003474s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0232s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0224s ]
+SQL: SELECT * FROM `patient` WHERE `name` = 'cbvb' AND `idnumber` = '322'  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000474s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004564s ]
+
+[ 2017-09-06T15:33:03+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=xxxg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002935s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '322'  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategorycontent` = '省本级医保'  [ RunTime:0.0013s ]
+SQL: UPDATE `patient` SET `idnumber`='1234',`reimbursementcategory`='1' WHERE `idnumber` = '322' [ RunTime:0.0694s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '322'  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000398s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000845s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002829s ]
+
+[ 2017-09-06T15:33:05+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002801s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0202s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0191s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0211s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000688s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003686s ]
+
+[ 2017-09-06T15:33:30+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002934s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0216s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0024s ]
+SQL: SELECT `name` FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000685s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002758s ]
+
+[ 2017-09-06T15:33:38+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003124s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0188s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0029s ]
+SQL: SELECT `name` FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000700s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002982s ]
+
+[ 2017-09-06T15:33:44+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002792s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0191s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0021s ]
+SQL: SELECT `name` FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000677s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002767s ]
+
+[ 2017-09-06T15:33:54+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004349s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0205s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0031s ]
+SQL: SELECT `name` FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000440s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002877s ]
+
+[ 2017-09-06T15:35:38+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002980s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `patient` WHERE `sex` = '男' AND `reimbursementcategory` = 1  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000335s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003194s ]
+
+[ 2017-09-06T15:35:40+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx1&name=cbvb&idnumber=1234
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002801s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0194s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0187s ]
+SQL: SELECT * FROM `patient` WHERE `name` = 'cbvb' AND `idnumber` = '1234'  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0218s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE `name` = 'cbvb' AND `idnumber` = '1234'  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000271s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000705s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002827s ]
+
+[ 2017-09-06T15:35:44+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx2&name=cbvb&idnumber=1234
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002738s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0242s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `patient` WHERE `name` = 'cbvb' AND `idnumber` = '1234'  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000448s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002938s ]
+
+[ 2017-09-06T15:35:49+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=xxxg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002852s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '1234'  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategorycontent` = '省本级医保'  [ RunTime:0.0013s ]
+SQL: UPDATE `patient` SET `idnumber`='222',`reimbursementcategory`='1' WHERE `idnumber` = '1234' [ RunTime:0.0662s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '1234'  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000386s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000862s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001969s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002724s ]
+
+[ 2017-09-06T15:35:56+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003975s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0198s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `patient` WHERE `sex` = '男' AND `reimbursementcategory` = 1  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000675s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002963s ]
+
+[ 2017-09-06T15:35:58+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx1&name=cbvb&idnumber=222
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003062s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0201s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `patient` WHERE `name` = 'cbvb' AND `idnumber` = '222'  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0271s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE `name` = 'cbvb' AND `idnumber` = '222'  [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001018s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004529s ]
+
+[ 2017-09-06T15:36:04+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003411s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0224s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0222s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0242s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000773s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003898s ]
+
+[ 2017-09-06T15:36:13+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003276s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0194s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `patient` WHERE `sex` = '男' AND `reimbursementcategory` = 1  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000692s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002965s ]
+
+[ 2017-09-06T15:37:32+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002789s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0209s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `patient` WHERE `sex` = '男' AND `reimbursementcategory` = 1  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000676s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003706s ]
+
+[ 2017-09-06T15:37:34+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx1&name=cbvb&idnumber=222
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002979s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0198s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `patient` WHERE `name` = 'cbvb' AND `idnumber` = '222'  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0198s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE `name` = 'cbvb' AND `idnumber` = '222'  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000664s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005017s ]
+
+[ 2017-09-06T15:37:36+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx2&name=cbvb&idnumber=222
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004314s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0198s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `patient` WHERE `name` = 'cbvb' AND `idnumber` = '222'  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000340s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000960s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002884s ]
+
+[ 2017-09-06T15:37:42+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=xxxg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004950s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '222'  [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0218s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategorycontent` = '省本级医保'  [ RunTime:0.0015s ]
+SQL: UPDATE `patient` SET `idnumber`='22111',`reimbursementcategory`='1' WHERE `idnumber` = '222' [ RunTime:0.0845s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '222'  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000761s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002916s ]
+
+[ 2017-09-06T15:38:41+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003030s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0383s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `patient` WHERE `sex` = '男' AND `reimbursementcategory` = 1  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000816s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053760s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003331s ]
+
+[ 2017-09-06T15:38:43+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx1&name=cbvb&idnumber=22111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003825s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0199s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `patient` WHERE `name` = 'cbvb' AND `idnumber` = '22111'  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0223s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE `name` = 'cbvb' AND `idnumber` = '22111'  [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000370s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000940s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003445s ]
+
+[ 2017-09-06T15:38:44+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx2&name=cbvb&idnumber=22111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002503s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0186s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `patient` WHERE `name` = 'cbvb' AND `idnumber` = '22111'  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000705s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003238s ]
+
+[ 2017-09-06T15:38:49+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=xxxg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002552s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '22111'  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategorycontent` = '省本级医保'  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002831s ]
+
+[ 2017-09-06T15:39:27+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx2&name=cbvb&idnumber=22111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002891s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0203s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `patient` WHERE `name` = 'cbvb' AND `idnumber` = '22111'  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000279s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000702s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002566s ]
+
+[ 2017-09-06T15:39:33+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003152s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0197s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `patient` WHERE `sex` = '男' AND `reimbursementcategory` = 1  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000672s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001755s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002693s ]
+
+[ 2017-09-06T15:39:48+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx1&name=cbvb&idnumber=22111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003040s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0196s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `patient` WHERE `name` = 'cbvb' AND `idnumber` = '22111'  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0216s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE `name` = 'cbvb' AND `idnumber` = '22111'  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000695s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003106s ]
+
+[ 2017-09-06T15:39:50+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx2&name=cbvb&idnumber=22111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002659s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0196s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `patient` WHERE `name` = 'cbvb' AND `idnumber` = '22111'  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000715s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002579s ]
+
+[ 2017-09-06T15:39:55+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=xxxg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002884s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '22111'  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategorycontent` = '省本级医保'  [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002818s ]
+
+[ 2017-09-06T15:40:06+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=xxxg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005840s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '22111'  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategorycontent` = '省本级医保'  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003243s ]
+
+[ 2017-09-06T15:40:33+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003193s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0208s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0212s ]
+SQL: SELECT * FROM `patient` WHERE `sex` = '男' AND `reimbursementcategory` = 1  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000688s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003269s ]
+
+[ 2017-09-06T15:40:35+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx1&name=cbvb&idnumber=22111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005127s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `patient` WHERE `name` = 'cbvb' AND `idnumber` = '22111'  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0402s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE `name` = 'cbvb' AND `idnumber` = '22111'  [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000747s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002666s ]
+
+[ 2017-09-06T15:40:37+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx2&name=cbvb&idnumber=22111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002575s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0211s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0221s ]
+SQL: SELECT * FROM `patient` WHERE `name` = 'cbvb' AND `idnumber` = '22111'  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000539s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001350s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002582s ]
+
+[ 2017-09-06T15:40:42+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=xxxg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002583s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '22111'  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategorycontent` = '省本级医保'  [ RunTime:0.0011s ]
+SQL: UPDATE `patient` SET `idnumber`='4344352',`patientid`='4344352',`reimbursementcategory`='1' WHERE `idnumber` = '22111' [ RunTime:0.0916s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '22111'  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000328s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000751s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001786s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002613s ]
+
+[ 2017-09-06T15:41:01+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004651s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0186s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `patient` WHERE `sex` = '男' AND `reimbursementcategory` = 1  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000635s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003442s ]
+
+[ 2017-09-06T15:41:03+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx1&name=%E8%B7%AF%E8%A5%BF%E6%B3%95&idnumber=000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002837s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0201s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `patient` WHERE `name` = '路西法' AND `idnumber` = '000'  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0198s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE `name` = '路西法' AND `idnumber` = '000'  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000657s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003946s ]
+
+[ 2017-09-06T15:41:10+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002745s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0199s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `patient` WHERE `sex` = '男' AND `reimbursementcategory` = 1  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000647s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002728s ]
+
+[ 2017-09-06T15:41:13+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx1&name=cbvb&idnumber=4344352
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003674s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0186s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `patient` WHERE `name` = 'cbvb' AND `idnumber` = '4344352'  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0256s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid  WHERE `name` = 'cbvb' AND `idnumber` = '4344352'  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000664s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001984s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002735s ]
+
+[ 2017-09-06T15:41:16+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx2&name=cbvb&idnumber=4344352
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003252s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0218s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `patient` WHERE `name` = 'cbvb' AND `idnumber` = '4344352'  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000699s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004052s ]
+
+[ 2017-09-06T15:41:20+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=xxxg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003490s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '4344352'  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategorycontent` = '省本级医保'  [ RunTime:0.0009s ]
+SQL: UPDATE `patient` SET `idnumber`='1234',`patientid`='1234',`reimbursementcategory`='1' WHERE `idnumber` = '4344352' [ RunTime:0.0976s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '4344352'  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000816s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001586s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002753s ]
+
+[ 2017-09-06T15:41:25+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002939s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0278s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0188s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0191s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000657s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003444s ]
+
+[ 2017-09-06T15:41:33+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003014s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0182s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0034s ]
+SQL: SELECT `name` FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000731s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003221s ]
+
+[ 2017-09-06T15:41:39+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003708s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0192s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0027s ]
+SQL: SELECT `name` FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000658s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001847s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002800s ]
+
+[ 2017-09-06T15:41:40+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003603s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0202s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0023s ]
+SQL: SELECT `name` FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000329s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000840s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005328s ]
+
+[ 2017-09-06T15:41:44+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002855s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0191s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0191s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0196s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000664s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003549s ]
+
+[ 2017-09-06T15:41:50+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003107s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0182s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0023s ]
+SQL: SELECT `name` FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000679s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001849s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002805s ]
+
+[ 2017-09-06T15:41:56+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000248s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003086s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0216s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0032s ]
+SQL: SELECT `name` FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000649s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003187s ]
+
+[ 2017-09-06T15:41:58+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002957s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0202s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0186s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0194s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000436s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000924s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002865s ]
+
+[ 2017-09-06T15:42:04+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=czhz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002877s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0205s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0028s ]
+SQL: SELECT `name` FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000662s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002757s ]
+
+[ 2017-09-06T15:42:06+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002874s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0189s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0192s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0202s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000663s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004443s ]
+

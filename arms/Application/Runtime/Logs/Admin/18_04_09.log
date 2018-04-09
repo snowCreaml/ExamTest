@@ -1,0 +1,109 @@
+[ 2018-04-09T12:17:14+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.035068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011807s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.1153s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 72 行.
+NOTIC: [8] Undefined index: sex D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 75 行.
+NOTIC: [8] Undefined index: birthyear D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 78 行.
+NOTIC: [8] Undefined index: birthmonth D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined index: birthday D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined index: patientid D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 87 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 90 行.
+NOTIC: [8] Undefined index: reimbursementcategory D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 93 行.
+NOTIC: [8] Undefined index: mobilephonenumber D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined index: phonenumber D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined index: wechatnumber D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0121s ]
+NOTIC: [8] Undefined variable: condition D:\wamp\www\arms\Application\Admin\Controller\IndexController.class.php 第 105 行.
+SQL: SELECT * FROM `patient`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.012960s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.013160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.132121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.132341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003928s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010475s ]
+
+[ 2018-04-09T12:17:24+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2018-04-09T12:17:31+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2018-04-09T19:57:55+08:00 ] ::1 /arms/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004132s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003329s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002912s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/arms/Application/Admin/Controller/LoginController.class.php:139) /Applications/MAMP/htdocs/arms/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/arms/Application/Admin/Controller/LoginController.class.php:139) /Applications/MAMP/htdocs/arms/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/arms/Application/Admin/Controller/LoginController.class.php:139) /Applications/MAMP/htdocs/arms/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004872s ]
+
+[ 2018-04-09T19:58:41+08:00 ] ::1 /arms/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004517s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/arms/Application/Admin/Controller/LoginController.class.php:139) /Applications/MAMP/htdocs/arms/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/arms/Application/Admin/Controller/LoginController.class.php:139) /Applications/MAMP/htdocs/arms/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+

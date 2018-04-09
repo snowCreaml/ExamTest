@@ -1,0 +1,3137 @@
+[ 2017-05-21T16:28:47+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004264s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0269s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0015s ]
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, array given D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 157 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003192s ]
+
+[ 2017-05-21T16:28:50+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003416s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0238s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0007s ]
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, array given D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 157 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002869s ]
+
+[ 2017-05-21T16:29:49+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005084s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0285s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0011s ]
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, array given D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 157 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002950s ]
+
+[ 2017-05-21T16:30:08+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004053s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0291s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0023s ]
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, array given D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 157 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003902s ]
+
+[ 2017-05-21T16:35:23+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003848s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0310s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0014s ]
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, array given D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 157 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003003s ]
+
+[ 2017-05-21T16:37:42+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003463s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0288s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: vaule D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 156 行.
+NOTIC: [8] Undefined variable: vaule D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 156 行.
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, array given D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 158 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004097s ]
+
+[ 2017-05-21T16:39:34+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002314s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0318s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: vaule D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 156 行.
+NOTIC: [8] Undefined variable: vaule D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 156 行.
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, array given D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 158 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004441s ]
+
+[ 2017-05-21T16:39:38+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003588s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0258s ]
+NOTIC: [8] Undefined index: contest D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Undefined index: reimbursementcategory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 152 行.
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = null  [ RunTime:0.0032s ]
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, array given D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 158 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004128s ]
+
+[ 2017-05-21T16:39:41+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003665s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0310s ]
+NOTIC: [8] Undefined index: contest D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Undefined index: reimbursementcategory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 152 行.
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = null  [ RunTime:0.0015s ]
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, array given D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 158 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002707s ]
+
+[ 2017-05-21T16:39:49+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002554s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0266s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: vaule D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 156 行.
+NOTIC: [8] Undefined variable: vaule D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 156 行.
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, array given D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 158 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003241s ]
+
+[ 2017-05-21T16:43:23+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003984s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0354s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0031s ]
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 158 行.
+NOTIC: [8] Undefined index: i D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 158 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 158 行.
+NOTIC: [8] Undefined index: i D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 158 行.
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, array given D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 160 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004122s ]
+
+[ 2017-05-21T16:44:35+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004120s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0300s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0022s ]
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 160 行.
+NOTIC: [8] Undefined index: i D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 160 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 160 行.
+NOTIC: [8] Undefined index: i D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 160 行.
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, array given D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 163 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002522s ]
+
+[ 2017-05-21T16:44:53+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000246s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002700s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0321s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0015s ]
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, array given D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 163 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003854s ]
+
+[ 2017-05-21T16:45:44+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002855s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0314s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0011s ]
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, array given D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 162 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004280s ]
+
+[ 2017-05-21T16:48:11+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000190s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002573s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0237s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0013s ]
+NOTIC: [8] Uninitialized string offset: 1 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 159 行.
+NOTIC: [2] Illegal string offset 'mobilephonenumber' D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 159 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 159 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003123s ]
+
+[ 2017-05-21T16:49:30+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003529s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0278s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0011s ]
+NOTIC: [8] Uninitialized string offset: 1 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 159 行.
+NOTIC: [2] Illegal string offset 'mobilephonenumber' D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 159 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 159 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003503s ]
+
+[ 2017-05-21T16:54:13+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003138s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0243s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0014s ]
+NOTIC: [2] Illegal string offset 'mobilephonenumber' D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 158 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003105s ]
+
+[ 2017-05-21T16:54:42+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003027s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0236s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'mobilephonenumber' D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 158 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003035s ]
+
+[ 2017-05-21T16:55:40+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002690s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0238s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0009s ]
+NOTIC: [2] Illegal string offset 'mobilephonenumber' D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 158 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002876s ]
+
+[ 2017-05-21T16:56:21+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005579s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0266s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'mobilephonenumber' D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 158 行.
+NOTIC: [2] file_get_contents(http://www.smsbao.com/sms?u=arms2017&amp;p=820b5cf1f7e835da92d33ce97aae173a&amp;m=1&amp;c=%E3%80%90Jlu%E9%99%88%E9%B9%8F%E3%80%91):  D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 166 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003450s ]
+
+[ 2017-05-21T16:57:14+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004636s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0234s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'mobilephonenumber' D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 158 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003881s ]
+
+[ 2017-05-21T16:57:47+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003747s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0251s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: smsapi D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [2] file_get_contents(sms?u=arms2017&amp;p=820b5cf1f7e835da92d33ce97aae173a&amp;m=188&amp;c=%E3%80%90Jlu%E9%99%88%E9%B9%8F%E3%80%91): failed to open stream: No such file or directory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 166 行.
+NOTIC: [8] Undefined variable: smsapi D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [2] file_get_contents(sms?u=arms2017&amp;p=820b5cf1f7e835da92d33ce97aae173a&amp;m=&amp;c=%E3%80%90Jlu%E9%99%88%E9%B9%8F%E3%80%91): failed to open stream: No such file or directory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 166 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004968s ]
+
+[ 2017-05-21T16:58:03+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006662s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0260s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 0  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003406s ]
+
+[ 2017-05-21T16:58:09+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003535s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0233s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: smsapi D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [2] file_get_contents(sms?u=arms2017&amp;p=820b5cf1f7e835da92d33ce97aae173a&amp;m=188&amp;c=%E3%80%90Jlu%E9%99%88%E9%B9%8F%E3%80%91): failed to open stream: No such file or directory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 166 行.
+NOTIC: [8] Undefined variable: smsapi D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [2] file_get_contents(sms?u=arms2017&amp;p=820b5cf1f7e835da92d33ce97aae173a&amp;m=&amp;c=%E3%80%90Jlu%E9%99%88%E9%B9%8F%E3%80%91): failed to open stream: No such file or directory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 166 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003665s ]
+
+[ 2017-05-21T16:58:35+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003014s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0239s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: smsapi D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [2] file_get_contents(sms?u=arms2017&amp;p=820b5cf1f7e835da92d33ce97aae173a&amp;m=188&amp;c=%E3%80%90Jlu%E9%99%88%E9%B9%8F%E3%80%91): failed to open stream: No such file or directory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 166 行.
+NOTIC: [8] Undefined variable: smsapi D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [2] file_get_contents(sms?u=arms2017&amp;p=820b5cf1f7e835da92d33ce97aae173a&amp;m=&amp;c=%E3%80%90Jlu%E9%99%88%E9%B9%8F%E3%80%91): failed to open stream: No such file or directory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 166 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003172s ]
+
+[ 2017-05-21T16:59:41+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005622s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0261s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0018s ]
+NOTIC: [2] Illegal string offset 'mobilephonenumber' D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 158 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003664s ]
+
+[ 2017-05-21T17:00:47+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007601s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0308s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: smsapi D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [2] file_get_contents(sms?u=arms2017&amp;p=820b5cf1f7e835da92d33ce97aae173a&amp;m=188&amp;c=%E3%80%90Jlu%E9%99%88%E9%B9%8F%E3%80%91): failed to open stream: No such file or directory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 166 行.
+NOTIC: [8] Undefined variable: smsapi D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [2] file_get_contents(sms?u=arms2017&amp;p=820b5cf1f7e835da92d33ce97aae173a&amp;m=&amp;c=%E3%80%90Jlu%E9%99%88%E9%B9%8F%E3%80%91): failed to open stream: No such file or directory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 166 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006648s ]
+
+[ 2017-05-21T17:01:13+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003557s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0271s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: smsapi D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [2] file_get_contents(sms?u=arms2017&amp;p=820b5cf1f7e835da92d33ce97aae173a&amp;m=188&amp;c=%E3%80%90Jlu%E9%99%88%E9%B9%8F%E3%80%91): failed to open stream: No such file or directory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 166 行.
+NOTIC: [8] Undefined variable: smsapi D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [2] file_get_contents(sms?u=arms2017&amp;p=820b5cf1f7e835da92d33ce97aae173a&amp;m=&amp;c=%E3%80%90Jlu%E9%99%88%E9%B9%8F%E3%80%91): failed to open stream: No such file or directory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 166 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003323s ]
+
+[ 2017-05-21T17:02:34+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006286s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0365s ]
+SQL: SELECT * FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: smsapi D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [2] file_get_contents(sms?u=arms2017&amp;p=820b5cf1f7e835da92d33ce97aae173a&amp;m=188&amp;c=%E3%80%90Jlu%E9%99%88%E9%B9%8F%E3%80%91): failed to open stream: No such file or directory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 166 行.
+NOTIC: [8] Undefined variable: smsapi D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [2] file_get_contents(sms?u=arms2017&amp;p=820b5cf1f7e835da92d33ce97aae173a&amp;m=&amp;c=%E3%80%90Jlu%E9%99%88%E9%B9%8F%E3%80%91): failed to open stream: No such file or directory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 166 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005685s ]
+
+[ 2017-05-21T17:03:01+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003212s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0248s ]
+SQL: SELECT * FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: $i D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: smsapi D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [2] file_get_contents(sms?u=arms2017&amp;p=820b5cf1f7e835da92d33ce97aae173a&amp;m=188&amp;c=%E3%80%90Jlu%E9%99%88%E9%B9%8F%E3%80%91): failed to open stream: No such file or directory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 166 行.
+NOTIC: [8] Undefined variable: smsapi D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [2] file_get_contents(sms?u=arms2017&amp;p=820b5cf1f7e835da92d33ce97aae173a&amp;m=&amp;c=%E3%80%90Jlu%E9%99%88%E9%B9%8F%E3%80%91): failed to open stream: No such file or directory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 166 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005039s ]
+
+[ 2017-05-21T17:04:08+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000190s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003117s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 154 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004183s ]
+
+[ 2017-05-21T17:04:25+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003215s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0311s ]
+SQL: SELECT * FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 154 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005569s ]
+
+[ 2017-05-21T17:04:40+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000180s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004795s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 154 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003362s ]
+
+[ 2017-05-21T17:04:59+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000211s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003456s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0231s ]
+SQL: SELECT * FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 154 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003649s ]
+
+[ 2017-05-21T17:05:34+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003274s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0233s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 154 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003304s ]
+
+[ 2017-05-21T17:06:43+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003021s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0425s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 154 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005301s ]
+
+[ 2017-05-21T17:07:41+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002566s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0261s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 154 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002703s ]
+
+[ 2017-05-21T17:08:45+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002691s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0421s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 154 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004025s ]
+
+[ 2017-05-21T17:09:49+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001234s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003826s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0304s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: smsapi D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [2] file_get_contents(sms?u=arms2017&amp;p=820b5cf1f7e835da92d33ce97aae173a&amp;m=188&amp;c=%E3%80%90Jlu%E9%99%88%E9%B9%8F%E3%80%91%E6%88%91%E7%88%B1%E4%BD%A0): failed to open stream: No such file or directory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 166 行.
+NOTIC: [8] Undefined variable: smsapi D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [2] file_get_contents(sms?u=arms2017&amp;p=820b5cf1f7e835da92d33ce97aae173a&amp;m=13174401248&amp;c=%E3%80%90Jlu%E9%99%88%E9%B9%8F%E3%80%91%E6%88%91%E7%88%B1%E4%BD%A0): failed to open stream: No such file or directory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 166 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002928s ]
+
+[ 2017-05-21T17:10:04+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002585s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0320s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: smsapi D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [2] file_get_contents(sms?u=arms2017&amp;p=820b5cf1f7e835da92d33ce97aae173a&amp;m=188&amp;c=%E3%80%90Jlu%E9%99%88%E9%B9%8F%E3%80%91%E6%88%91%E7%88%B1%E4%BD%A0): failed to open stream: No such file or directory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 166 行.
+NOTIC: [8] Undefined variable: smsapi D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [2] file_get_contents(sms?u=arms2017&amp;p=820b5cf1f7e835da92d33ce97aae173a&amp;m=13174401248&amp;c=%E3%80%90Jlu%E9%99%88%E9%B9%8F%E3%80%91%E6%88%91%E7%88%B1%E4%BD%A0): failed to open stream: No such file or directory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 166 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004619s ]
+
+[ 2017-05-21T17:10:36+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000239s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003770s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0248s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: smsapi D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [2] file_get_contents(sms?u=arms2017&amp;p=820b5cf1f7e835da92d33ce97aae173a&amp;m=188&amp;c=%E3%80%90Jlu%E9%99%88%E9%B9%8F%E3%80%91%E6%88%91%E7%88%B1%E4%BD%A0): failed to open stream: No such file or directory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 166 行.
+NOTIC: [8] Undefined variable: smsapi D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [2] file_get_contents(sms?u=arms2017&amp;p=820b5cf1f7e835da92d33ce97aae173a&amp;m=13174401248&amp;c=%E3%80%90Jlu%E9%99%88%E9%B9%8F%E3%80%91%E6%88%91%E7%88%B1%E4%BD%A0): failed to open stream: No such file or directory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 166 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003932s ]
+
+[ 2017-05-21T17:13:29+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004446s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0295s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: smsapi D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [2] file_get_contents(sms?u=arms2017&amp;p=820b5cf1f7e835da92d33ce97aae173a&amp;m=188&amp;c=%E3%80%90Jlu%E9%99%88%E9%B9%8F%E3%80%91%E6%88%91%E7%88%B1%E4%BD%A0): failed to open stream: No such file or directory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 166 行.
+NOTIC: [8] Undefined variable: smsapi D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [2] file_get_contents(sms?u=arms2017&amp;p=820b5cf1f7e835da92d33ce97aae173a&amp;m=13174401248&amp;c=%E3%80%90Jlu%E9%99%88%E9%B9%8F%E3%80%91%E6%88%91%E7%88%B1%E4%BD%A0): failed to open stream: No such file or directory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 166 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002932s ]
+
+[ 2017-05-21T17:13:53+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004015s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0376s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: smsapi D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [2] file_get_contents(sms?u=arms2017&amp;p=820b5cf1f7e835da92d33ce97aae173a&amp;m=188&amp;c=%E3%80%90Jlu%E9%99%88%E9%B9%8F%E3%80%91%E6%88%91%E7%88%B1%E4%BD%A0): failed to open stream: No such file or directory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 166 行.
+NOTIC: [8] Undefined variable: smsapi D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [2] file_get_contents(sms?u=arms2017&amp;p=820b5cf1f7e835da92d33ce97aae173a&amp;m=13174401248&amp;c=%E3%80%90Jlu%E9%99%88%E9%B9%8F%E3%80%91%E6%88%91%E7%88%B1%E4%BD%A0): failed to open stream: No such file or directory D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 166 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004457s ]
+
+[ 2017-05-21T17:14:35+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005821s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0296s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004428s ]
+
+[ 2017-05-21T17:22:34+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=pttz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004019s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0274s ]
+SQL: SELECT `mobilephonenumber` FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003680s ]
+
+[ 2017-05-21T17:26:23+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=aqsz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003432s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0261s ]
+SQL: UPDATE `doctor` SET `password`='' WHERE ( doctorid='admin' ) [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000699s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002804s ]
+
+[ 2017-05-21T17:26:24+08:00 ] 127.0.0.1 /arms1/index.php?m=&&m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002793s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000340s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000807s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003728s ]
+
+[ 2017-05-21T17:26:50+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=aqsz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003059s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0255s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000671s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001908s ]
+
+[ 2017-05-21T17:27:27+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=aqsz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003332s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0289s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002944s ]
+
+[ 2017-05-21T17:29:26+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=aqsz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002941s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0269s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000825s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001933s ]
+
+[ 2017-05-21T17:29:58+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=aqsz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002705s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0236s ]
+SQL: UPDATE `doctor` SET `password`='admin' WHERE ( doctorid='admin' ) [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000685s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002950s ]
+
+[ 2017-05-21T17:29:59+08:00 ] 127.0.0.1 /arms1/index.php?m=&&m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003586s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000769s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002775s ]
+
+[ 2017-05-21T17:30:03+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=aqsz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002656s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000688s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001911s ]
+
+[ 2017-05-21T17:30:51+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=xxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002951s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0263s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0241s ]
+SQL: SELECT * FROM `patient` WHERE `reimbursementcategory` = 1  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000770s ]
+NOTIC: [8] Undefined index: diagnosis1 D:\wamp\www\arms1\Application\Runtime\Cache\Admin\0a243d16742c9d10488f042157f49813.php 第 69 行.
+NOTIC: [8] Undefined index: treatmentplan1 D:\wamp\www\arms1\Application\Runtime\Cache\Admin\0a243d16742c9d10488f042157f49813.php 第 70 行.
+NOTIC: [8] Undefined index: diseaseassessment1 D:\wamp\www\arms1\Application\Runtime\Cache\Admin\0a243d16742c9d10488f042157f49813.php 第 71 行.
+NOTIC: [8] Undefined index: visittime D:\wamp\www\arms1\Application\Runtime\Cache\Admin\0a243d16742c9d10488f042157f49813.php 第 72 行.
+NOTIC: [8] Undefined index: visitproject D:\wamp\www\arms1\Application\Runtime\Cache\Admin\0a243d16742c9d10488f042157f49813.php 第 72 行.
+NOTIC: [8] Undefined index: visitconclus D:\wamp\www\arms1\Application\Runtime\Cache\Admin\0a243d16742c9d10488f042157f49813.php 第 73 行.
+NOTIC: [8] Undefined index: diagnosis1 D:\wamp\www\arms1\Application\Runtime\Cache\Admin\0a243d16742c9d10488f042157f49813.php 第 69 行.
+NOTIC: [8] Undefined index: treatmentplan1 D:\wamp\www\arms1\Application\Runtime\Cache\Admin\0a243d16742c9d10488f042157f49813.php 第 70 行.
+NOTIC: [8] Undefined index: diseaseassessment1 D:\wamp\www\arms1\Application\Runtime\Cache\Admin\0a243d16742c9d10488f042157f49813.php 第 71 行.
+NOTIC: [8] Undefined index: visittime D:\wamp\www\arms1\Application\Runtime\Cache\Admin\0a243d16742c9d10488f042157f49813.php 第 72 行.
+NOTIC: [8] Undefined index: visitproject D:\wamp\www\arms1\Application\Runtime\Cache\Admin\0a243d16742c9d10488f042157f49813.php 第 72 行.
+NOTIC: [8] Undefined index: visitconclus D:\wamp\www\arms1\Application\Runtime\Cache\Admin\0a243d16742c9d10488f042157f49813.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002811s ]
+
+[ 2017-05-21T17:30:58+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000407s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003772s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0259s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0267s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0281s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000279s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000783s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003943s ]
+
+[ 2017-05-21T17:31:13+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002642s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '143243' AND `name` = '小明'  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000876s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004451s ]
+
+[ 2017-05-21T17:31:35+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002788s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0311s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '1111111111111111111111111111' AND `name` = 'cp'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 35 行.
+
+[ 2017-05-21T17:31:36+08:00 ] 127.0.0.1 /arms1/index.php?m=Admin&c=Index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003481s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategorycontent` = ''  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 87 行.
+ERR: 1048:Column 'reimbursementcategory' cannot be null
+ [ SQL语句 ] : INSERT INTO `patient` (`name`,`sex`,`birthyear`,`birthmonth`,`birthday`,`idnumber`,`address`,`mobilephonenumber`,`phonenumber`,`wechatnumber`,`medicalhistory1`,`previoushistory1`,`familyhistory1`,`reimbursementcategory`) VALUES ('','','0','0','0','','','','','','','','',NULL)
+ERR: 1048:Column 'reimbursementcategory' cannot be null
+ [ SQL语句 ] : INSERT INTO `patient` (`name`,`sex`,`birthyear`,`birthmonth`,`birthday`,`idnumber`,`address`,`mobilephonenumber`,`phonenumber`,`wechatnumber`,`medicalhistory1`,`previoushistory1`,`familyhistory1`,`reimbursementcategory`) VALUES ('','','0','0','0','','','','','','','','',NULL)
+
+[ 2017-05-21T17:33:37+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006410s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0316s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '1111111111111' AND `name` = 'cp'  [ RunTime:0.0016s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 34 行.
+
+[ 2017-05-21T17:33:38+08:00 ] 127.0.0.1 /arms1/index.php?m=Admin&c=Index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006197s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0256s ]
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0273s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategorycontent` = ''  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 86 行.
+ERR: 1048:Column 'reimbursementcategory' cannot be null
+ [ SQL语句 ] : INSERT INTO `patient` (`name`,`sex`,`birthyear`,`birthmonth`,`birthday`,`idnumber`,`address`,`mobilephonenumber`,`phonenumber`,`wechatnumber`,`medicalhistory1`,`previoushistory1`,`familyhistory1`,`reimbursementcategory`) VALUES ('','','0','0','0','','','','','','','','',NULL)
+ERR: 1048:Column 'reimbursementcategory' cannot be null
+ [ SQL语句 ] : INSERT INTO `patient` (`name`,`sex`,`birthyear`,`birthmonth`,`birthday`,`idnumber`,`address`,`mobilephonenumber`,`phonenumber`,`wechatnumber`,`medicalhistory1`,`previoushistory1`,`familyhistory1`,`reimbursementcategory`) VALUES ('','','0','0','0','','','','','','','','',NULL)
+
+[ 2017-05-21T17:35:57+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005972s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0248s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '143243' AND `name` = '小明'  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000703s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003498s ]
+
+[ 2017-05-21T17:36:07+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003451s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0254s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '121' AND `name` = 'as'  [ RunTime:0.0016s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 34 行.
+
+[ 2017-05-21T17:36:07+08:00 ] 127.0.0.1 /arms1/index.php?m=Admin&c=Index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004128s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0247s ]
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0242s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategorycontent` = ''  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 86 行.
+ERR: 1048:Column 'reimbursementcategory' cannot be null
+ [ SQL语句 ] : INSERT INTO `patient` (`name`,`sex`,`birthyear`,`birthmonth`,`birthday`,`idnumber`,`address`,`mobilephonenumber`,`phonenumber`,`wechatnumber`,`medicalhistory1`,`previoushistory1`,`familyhistory1`,`reimbursementcategory`) VALUES ('','','0','0','0','','','','','','','','',NULL)
+ERR: 1048:Column 'reimbursementcategory' cannot be null
+ [ SQL语句 ] : INSERT INTO `patient` (`name`,`sex`,`birthyear`,`birthmonth`,`birthday`,`idnumber`,`address`,`mobilephonenumber`,`phonenumber`,`wechatnumber`,`medicalhistory1`,`previoushistory1`,`familyhistory1`,`reimbursementcategory`) VALUES ('','','0','0','0','','','','','','','','',NULL)
+
+[ 2017-05-21T17:36:29+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003192s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '' AND `name` = ''  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 34 行.
+
+[ 2017-05-21T17:36:29+08:00 ] 127.0.0.1 /arms1/index.php?m=Admin&c=Index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003494s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0243s ]
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategorycontent` = ''  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 86 行.
+ERR: 1048:Column 'reimbursementcategory' cannot be null
+ [ SQL语句 ] : INSERT INTO `patient` (`name`,`sex`,`birthyear`,`birthmonth`,`birthday`,`idnumber`,`address`,`mobilephonenumber`,`phonenumber`,`wechatnumber`,`medicalhistory1`,`previoushistory1`,`familyhistory1`,`reimbursementcategory`) VALUES ('','','0','0','0','','','','','','','','',NULL)
+ERR: 1048:Column 'reimbursementcategory' cannot be null
+ [ SQL语句 ] : INSERT INTO `patient` (`name`,`sex`,`birthyear`,`birthmonth`,`birthday`,`idnumber`,`address`,`mobilephonenumber`,`phonenumber`,`wechatnumber`,`medicalhistory1`,`previoushistory1`,`familyhistory1`,`reimbursementcategory`) VALUES ('','','0','0','0','','','','','','','','',NULL)
+
+[ 2017-05-21T17:37:59+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003486s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0256s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '' AND `name` = ''  [ RunTime:0.0016s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 34 行.
+
+[ 2017-05-21T17:37:59+08:00 ] 127.0.0.1 /arms1/index.php?m=Admin&c=Index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003276s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0262s ]
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0245s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategorycontent` = ''  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 86 行.
+ERR: 1048:Column 'reimbursementcategory' cannot be null
+ [ SQL语句 ] : INSERT INTO `patient` (`name`,`sex`,`birthyear`,`birthmonth`,`birthday`,`idnumber`,`address`,`mobilephonenumber`,`phonenumber`,`wechatnumber`,`medicalhistory1`,`previoushistory1`,`familyhistory1`,`reimbursementcategory`) VALUES ('','','0','0','0','','','','','','','','',NULL)
+ERR: 1048:Column 'reimbursementcategory' cannot be null
+ [ SQL语句 ] : INSERT INTO `patient` (`name`,`sex`,`birthyear`,`birthmonth`,`birthday`,`idnumber`,`address`,`mobilephonenumber`,`phonenumber`,`wechatnumber`,`medicalhistory1`,`previoushistory1`,`familyhistory1`,`reimbursementcategory`) VALUES ('','','0','0','0','','','','','','','','',NULL)
+
+[ 2017-05-21T17:42:18+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003080s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0304s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '' AND `name` = ''  [ RunTime:0.0016s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 34 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000302s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000736s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003263s ]
+
+[ 2017-05-21T17:42:50+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003042s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0271s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '' AND `name` = ''  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined variable: module D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+
+[ 2017-05-21T17:43:08+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003983s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0281s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '' AND `name` = ''  [ RunTime:0.0018s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined variable: module D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+
+[ 2017-05-21T17:44:01+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003188s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0304s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '' AND `name` = ''  [ RunTime:0.0018s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 34 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000714s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003009s ]
+
+[ 2017-05-21T17:45:11+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005804s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0272s ]
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategorycontent` = '省本级医保'  [ RunTime:0.0016s ]
+SQL: INSERT INTO `patient` (`name`,`sex`,`birthyear`,`birthmonth`,`birthday`,`idnumber`,`address`,`mobilephonenumber`,`phonenumber`,`wechatnumber`,`medicalhistory1`,`previoushistory1`,`familyhistory1`,`reimbursementcategory`) VALUES ('chenpeng','男','1997','7','17','123123','','','','','','','','1') [ RunTime:0.0059s ]
+
+[ 2017-05-21T17:45:11+08:00 ] 127.0.0.1 /arms1/index.php?m=Admin&c=Index&a=hzgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006450s ]
+SQL: SHOW COLUMNS FROM `treatment` [ RunTime:0.0241s ]
+SQL: INSERT INTO `treatment` (`patientid`,`doctorid`,`diagnosis1`,`treatmentplan1`,`diseaseassessment1`,`medicaltime`) VALUES ('123123','admin','','','','2017-05-21') [ RunTime:0.0052s ]
+
+[ 2017-05-21T17:45:11+08:00 ] 127.0.0.1 /arms1/index.php?m=Admin&c=Index&a=hzgl2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004761s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0287s ]
+SQL: INSERT INTO `visit` (`treatmentid`,`visittime`,`visitproject`) VALUES ('4','','') [ RunTime:0.0042s ]
+
+[ 2017-05-21T17:45:12+08:00 ] 127.0.0.1 /arms1/index.php?m=Admin&c=Index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003905s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0293s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '' AND `name` = ''  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 34 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000438s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000963s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004505s ]
+
+[ 2017-05-21T17:48:07+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004429s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0263s ]
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategorycontent` = '省本级医保'  [ RunTime:0.0011s ]
+SQL: INSERT INTO `patient` (`patientid`,`name`,`sex`,`birthyear`,`birthmonth`,`birthday`,`idnumber`,`address`,`mobilephonenumber`,`phonenumber`,`wechatnumber`,`medicalhistory1`,`previoushistory1`,`familyhistory1`,`reimbursementcategory`) VALUES ('123123','chen','男','1997','1','1','123123','','18843114730','','','','','','1') [ RunTime:0.0043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000658s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003453s ]
+
+[ 2017-05-21T17:48:12+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005354s ]
+SQL: SHOW COLUMNS FROM `treatment` [ RunTime:0.0310s ]
+SQL: INSERT INTO `treatment` (`patientid`,`doctorid`,`diagnosis1`,`treatmentplan1`,`diseaseassessment1`,`medicaltime`) VALUES ('123123','admin','assdafdsfd','agds','adsfd','2017-05-21') [ RunTime:0.0046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000311s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000784s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003608s ]
+
+[ 2017-05-21T17:49:18+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000190s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003409s ]
+SQL: SHOW COLUMNS FROM `treatment` [ RunTime:0.0312s ]
+SQL: INSERT INTO `treatment` (`patientid`,`doctorid`,`diagnosis1`,`treatmentplan1`,`diseaseassessment1`,`medicaltime`) VALUES ('123123','admin','assdafdsfd','agds','adsfd','2017-05-21') [ RunTime:0.0051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000702s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003181s ]
+
+[ 2017-05-21T17:49:18+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzgl2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003060s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0246s ]
+SQL: INSERT INTO `visit` (`treatmentid`,`visittime`,`visitproject`) VALUES ('6','','') [ RunTime:0.0044s ]
+
+[ 2017-05-21T17:49:19+08:00 ] 127.0.0.1 /arms1/index.php?m=Admin&c=Index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003169s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '' AND `name` = ''  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 34 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000359s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000821s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002955s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004132s ]
+
+[ 2017-05-21T17:49:42+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzgl2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004201s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0260s ]
+SQL: INSERT INTO `visit` (`treatmentid`,`visittime`,`visitproject`) VALUES ('6','','') [ RunTime:0.0042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000661s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003234s ]
+
+[ 2017-05-21T17:51:16+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004328s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0245s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '' AND `name` = ''  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 34 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000765s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002989s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003259s ]
+
+[ 2017-05-21T17:51:40+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008964s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0279s ]
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0257s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategorycontent` = '省本级医保'  [ RunTime:0.0010s ]
+SQL: INSERT INTO `patient` (`patientid`,`name`,`sex`,`birthyear`,`birthmonth`,`birthday`,`idnumber`,`address`,`mobilephonenumber`,`phonenumber`,`wechatnumber`,`medicalhistory1`,`previoushistory1`,`familyhistory1`,`reimbursementcategory`) VALUES ('12121212','小明','男','1996','1','1','12121212','','','','','','','','1') [ RunTime:0.0051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000706s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001462s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003814s ]
+
+[ 2017-05-21T17:51:46+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004409s ]
+SQL: SHOW COLUMNS FROM `treatment` [ RunTime:0.0268s ]
+SQL: INSERT INTO `treatment` (`patientid`,`doctorid`,`diagnosis1`,`treatmentplan1`,`diseaseassessment1`,`medicaltime`) VALUES ('12121212','admin','sdfgh','','','2017-05-21') [ RunTime:0.0074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000379s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000886s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003133s ]
+
+[ 2017-05-21T17:51:50+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzgl2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003598s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0254s ]
+SQL: INSERT INTO `visit` (`treatmentid`,`visittime`,`visitproject`) VALUES ('7','','shfdg') [ RunTime:0.0083s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000294s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000767s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003521s ]
+
+[ 2017-05-21T17:52:16+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003385s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0244s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '12121212' AND `name` = '小明'  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000711s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003259s ]
+
+[ 2017-05-21T17:52:29+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=xxxg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005023s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0289s ]
+SQL: UPDATE `patient` SET `phonenumber`='18843114730' WHERE `idnumber` = '12121212' [ RunTime:0.0054s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '12121212'  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000729s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003225s ]
+
+[ 2017-05-21T17:52:35+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzjg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003162s ]
+SQL: SHOW COLUMNS FROM `treatment` [ RunTime:0.0256s ]
+SQL: SELECT * FROM treatment as a INNER JOIN Visit as b on b.treatmentid=a.treatmentid  WHERE `visitconclusion1` = '' AND `doctorid` = 'admin' AND `patientid` = '12121212'  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0258s ]
+SQL: UPDATE `visit` SET `visitconclusion1`='adsf' WHERE `visitid` = 16 [ RunTime:0.0048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004088s ]
+
+[ 2017-05-21T17:53:40+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003386s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '12121212' AND `name` = '小明'  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000718s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003119s ]
+
+[ 2017-05-21T17:55:58+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzjg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000215s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004790s ]
+SQL: SHOW COLUMNS FROM `treatment` [ RunTime:0.0245s ]
+SQL: SELECT * FROM treatment as a INNER JOIN Visit as b on b.treatmentid=a.treatmentid  WHERE `visitconclusion1` = '' AND `doctorid` = 'admin' AND `patientid` = '12121212'  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0247s ]
+SQL: UPDATE `visit` SET `visitconclusion1`='dasfa' WHERE `visitid` = 16 [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000327s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000905s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\arms1\Application\Runtime\Cache\Admin\76201b0e5ec4a653df26312d96717be4.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003870s ]
+
+[ 2017-05-21T17:56:25+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzjg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003681s ]
+SQL: SHOW COLUMNS FROM `treatment` [ RunTime:0.0259s ]
+SQL: SELECT * FROM treatment as a INNER JOIN Visit as b on b.treatmentid=a.treatmentid  WHERE `visitconclusion1` = '' AND `doctorid` = 'admin' AND `patientid` = '12121212'  [ RunTime:0.0021s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 131 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003828s ]
+
+[ 2017-05-21T17:57:17+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003878s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0251s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '12121212' AND `name` = '小明'  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000655s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002873s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003808s ]
+
+[ 2017-05-21T17:57:23+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzjg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003229s ]
+SQL: SHOW COLUMNS FROM `treatment` [ RunTime:0.0256s ]
+SQL: SELECT * FROM treatment as a INNER JOIN Visit as b on b.treatmentid=a.treatmentid  WHERE `visitconclusion1` = '' AND `doctorid` = 'admin' AND `patientid` = '12121212'  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 131 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003717s ]
+
+[ 2017-05-21T17:57:51+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzjg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003275s ]
+SQL: SHOW COLUMNS FROM `treatment` [ RunTime:0.0268s ]
+SQL: SELECT * FROM treatment as a INNER JOIN Visit as b on b.treatmentid=a.treatmentid  WHERE `visitconclusion1` = '' AND `doctorid` = 'admin' AND `patientid` = '12121212'  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 131 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003847s ]
+
+[ 2017-05-21T17:58:07+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003643s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '12121212' AND `name` = '小明'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000740s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003215s ]
+
+[ 2017-05-21T17:58:16+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000299s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006117s ]
+SQL: SHOW COLUMNS FROM `treatment` [ RunTime:0.0269s ]
+SQL: INSERT INTO `treatment` (`patientid`,`doctorid`,`diagnosis1`,`treatmentplan1`,`diseaseassessment1`,`medicaltime`) VALUES ('12121212','admin','asdsaf','assd','qwe','2017-05-21') [ RunTime:0.0043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000304s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000868s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004587s ]
+
+[ 2017-05-21T17:58:27+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzgl2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003215s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0235s ]
+SQL: INSERT INTO `visit` (`treatmentid`,`visittime`,`visitproject`) VALUES ('8','','adsf') [ RunTime:0.0051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000424s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003061s ]
+
+[ 2017-05-21T17:59:07+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003559s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0278s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '' AND `name` = ''  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 34 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000710s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003467s ]
+
+[ 2017-05-21T20:11:07+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002631s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0295s ]
+SQL: UPDATE `doctor` SET `password`='121',`name`='陈鹏',`phonenumber`='121' WHERE `doctorid` = 'chenpeng' [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004544s ]
+
+[ 2017-05-21T20:12:25+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000198s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003770s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0273s ]
+SQL: UPDATE `doctor` SET `password`='222',`name`='213',`phonenumber`='12' WHERE `doctorid` = '123' [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002844s ]
+
+[ 2017-05-21T20:13:58+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003751s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0282s ]
+SQL: INSERT INTO `doctor` (`doctorid`,`password`,`name`,`phonenumber`) VALUES ('121','121','121','121') [ RunTime:0.0334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003634s ]
+
+[ 2017-05-21T20:22:35+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003162s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0284s ]
+SQL: INSERT INTO `doctor` (`doctorid`,`password`,`name`,`phonenumber`) VALUES ('','','','') [ RunTime:0.0653s ]
+SQL: SELECT * FROM `doctor`  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000669s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-05-21T20:22:57+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003588s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0239s ]
+ERR: 1062:Duplicate entry '' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `doctor` (`doctorid`,`password`,`name`,`phonenumber`) VALUES ('','','','')
+ERR: 1062:Duplicate entry '' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `doctor` (`doctorid`,`password`,`name`,`phonenumber`) VALUES ('','','','')
+
+[ 2017-05-21T20:24:30+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003805s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `doctor`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000411s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003367s ]
+
+[ 2017-05-21T20:24:49+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002949s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0286s ]
+SQL: INSERT INTO `doctor` (`doctorid`,`password`,`name`,`phonenumber`) VALUES ('q','q','q','121') [ RunTime:0.0051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002934s ]
+
+[ 2017-05-21T20:24:58+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002496s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0245s ]
+SQL: SELECT * FROM `doctor`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000645s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001961s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003622s ]
+
+[ 2017-05-21T20:29:52+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003969s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0498s ]
+SQL: SELECT * FROM `doctor`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000644s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004953s ]
+
+[ 2017-05-21T20:29:54+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003059s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0325s ]
+SQL: SELECT * FROM `doctor`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000393s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005389s ]
+
+[ 2017-05-21T20:30:08+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003107s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0289s ]
+SQL: SELECT * FROM `doctor`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000698s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003388s ]
+
+[ 2017-05-21T20:30:09+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003481s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0281s ]
+SQL: SELECT * FROM `doctor`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000636s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001993s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003486s ]
+
+[ 2017-05-21T20:30:32+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003310s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `doctor`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000653s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003163s ]
+
+[ 2017-05-21T20:30:59+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006026s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `doctor`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000396s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005641s ]
+
+[ 2017-05-21T20:31:03+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003272s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0296s ]
+SQL: SELECT * FROM `doctor`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000659s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004401s ]
+
+[ 2017-05-21T20:31:06+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003473s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0242s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0255s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0265s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000723s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004472s ]
+
+[ 2017-05-21T20:31:07+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003283s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `doctor`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000670s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003002s ]
+
+[ 2017-05-21T20:31:10+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003201s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0254s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0252s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000789s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003310s ]
+
+[ 2017-05-21T20:31:13+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003161s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `doctor`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000639s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003202s ]
+
+[ 2017-05-21T20:31:16+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0251s ]
+SQL: SELECT * FROM `doctor`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000648s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001995s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002924s ]
+
+[ 2017-05-21T20:31:34+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003932s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0258s ]
+SQL: SELECT * FROM `doctor`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000697s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003851s ]
+
+[ 2017-05-21T20:31:38+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003073s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0261s ]
+SQL: SELECT * FROM `doctor`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000647s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004163s ]
+
+[ 2017-05-21T20:31:40+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000423s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004363s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `doctor`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000951s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003662s ]
+
+[ 2017-05-21T20:31:42+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=xxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000130s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004074s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0267s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0259s ]
+NOTIC: [8] Undefined variable: condition D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 263 行.
+SQL: SELECT * FROM `patient`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000649s ]
+NOTIC: [8] Undefined index: diagnosis1 D:\wamp\www\arms1\Application\Runtime\Cache\Admin\0a243d16742c9d10488f042157f49813.php 第 69 行.
+NOTIC: [8] Undefined index: treatmentplan1 D:\wamp\www\arms1\Application\Runtime\Cache\Admin\0a243d16742c9d10488f042157f49813.php 第 70 行.
+NOTIC: [8] Undefined index: diseaseassessment1 D:\wamp\www\arms1\Application\Runtime\Cache\Admin\0a243d16742c9d10488f042157f49813.php 第 71 行.
+NOTIC: [8] Undefined index: visittime D:\wamp\www\arms1\Application\Runtime\Cache\Admin\0a243d16742c9d10488f042157f49813.php 第 72 行.
+NOTIC: [8] Undefined index: visitproject D:\wamp\www\arms1\Application\Runtime\Cache\Admin\0a243d16742c9d10488f042157f49813.php 第 72 行.
+NOTIC: [8] Undefined index: visitconclus D:\wamp\www\arms1\Application\Runtime\Cache\Admin\0a243d16742c9d10488f042157f49813.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003965s ]
+
+[ 2017-05-21T20:31:44+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005243s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0243s ]
+SQL: SELECT * FROM `doctor`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000420s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001964s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002931s ]
+
+[ 2017-05-21T20:31:48+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003307s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `doctor`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000355s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000844s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003537s ]
+
+[ 2017-05-21T20:31:53+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=hzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003074s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0247s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '' AND `name` = ''  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 34 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000705s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003036s ]
+
+[ 2017-05-21T20:31:58+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003847s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0254s ]
+SQL: SELECT * FROM `doctor`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000666s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003521s ]
+
+[ 2017-05-21T20:32:23+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003031s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0273s ]
+SQL: SELECT * FROM `doctor`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000749s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008799s ]
+
+[ 2017-05-21T20:32:35+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003028s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0246s ]
+SQL: SELECT * FROM `doctor`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000655s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003075s ]
+
+[ 2017-05-21T20:32:45+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004893s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `doctor`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000668s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002806s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003080s ]
+
+[ 2017-05-21T20:33:04+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003733s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `doctor`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000689s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005637s ]
+
+[ 2017-05-21T20:33:13+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=yhgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004593s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0293s ]
+SQL: SELECT * FROM `doctor`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000403s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004424s ]
+
+[ 2017-05-21T20:42:01+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003440s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000706s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003830s ]
+
+[ 2017-05-21T20:42:07+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004752s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0291s ]
+SQL: SELECT * FROM `doctor` WHERE `doctorid` = 'cp'  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000617s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003022s ]
+
+[ 2017-05-21T20:42:08+08:00 ] 127.0.0.1 /arms1/index.php?m=&&m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003060s ]
+ERR: 模板不存在:./Application/Admin/View/Index/index.html
+
+[ 2017-05-21T20:43:40+08:00 ] 127.0.0.1 /arms1/index.php?m=&&m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004003s ]
+ERR: 模板不存在:./Application/Admin/View/Index/index.html
+
+[ 2017-05-21T20:43:45+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000190s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003683s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000684s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003533s ]
+
+[ 2017-05-21T20:43:49+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004102s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0252s ]
+SQL: SELECT * FROM `doctor` WHERE `doctorid` = 'cp'  [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000477s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001336s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003957s ]
+
+[ 2017-05-21T20:43:50+08:00 ] 127.0.0.1 /arms1/index.php?m=&&m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004174s ]
+ERR: 模板不存在:./Application/Admin/View/Index/index.html
+
+[ 2017-05-21T20:44:08+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003536s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000389s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005779s ]
+
+[ 2017-05-21T20:44:12+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004397s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000447s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001025s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003251s ]
+
+[ 2017-05-21T20:44:14+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003018s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `doctor` WHERE `doctorid` = 'cp'  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000604s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003257s ]
+
+[ 2017-05-21T20:44:15+08:00 ] 127.0.0.1 /arms1/index.php?m=&&m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004474s ]
+ERR: 模板不存在:./Application/Admin/View/Index/index.html
+
+[ 2017-05-21T20:47:48+08:00 ] 127.0.0.1 /arms1/index.php?m=&&m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003240s ]
+ERR: 模板不存在:./Application/Admin/View/Index/index.html
+
+[ 2017-05-21T20:47:52+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003719s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000672s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004078s ]
+
+[ 2017-05-21T20:47:53+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003513s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0254s ]
+SQL: SELECT * FROM `doctor` WHERE `doctorid` = 'cp'  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002956s ]
+
+[ 2017-05-21T20:51:27+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004487s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000694s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004078s ]
+
+[ 2017-05-21T20:51:29+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003826s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0324s ]
+SQL: SELECT * FROM `doctor` WHERE `doctorid` = 'cp'  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000619s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004455s ]
+
+[ 2017-05-21T20:52:09+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003056s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000649s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005370s ]
+
+[ 2017-05-21T20:53:21+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002956s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0289s ]
+SQL: SELECT * FROM `doctor` WHERE `doctorid` = 'cp'  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000649s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002804s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003247s ]
+
+[ 2017-05-21T20:53:22+08:00 ] 127.0.0.1 /arms1/index.php?m=&&m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000191s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003121s ]
+ERR: 模板不存在:./Application/Admin/View/Index/index.html
+
+[ 2017-05-21T20:54:36+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003291s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007196s ]
+
+[ 2017-05-21T20:54:37+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003435s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0285s ]
+SQL: SELECT * FROM `doctor` WHERE `doctorid` = 'cp'  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000621s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003106s ]
+
+[ 2017-05-21T20:54:38+08:00 ] 127.0.0.1 /arms1/index.php?m=&&m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003724s ]
+ERR: 非法操作:index
+
+[ 2017-05-21T21:07:55+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003354s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000437s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003236s ]
+
+[ 2017-05-21T21:07:56+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000303s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003707s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `doctor` WHERE `doctorid` = 'cp'  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000609s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002989s ]
+
+[ 2017-05-21T21:07:57+08:00 ] 127.0.0.1 /arms1/index.php?m=&&m=admin&c=index&a=index2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003501s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000294s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000878s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034106s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006497s ]
+
+[ 2017-05-21T21:07:57+08:00 ] 127.0.0.1 /arms1/index.php?m=&&m=admin&c=index&a=index2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003647s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000702s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004411s ]
+
+[ 2017-05-21T21:08:16+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003172s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0278s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0272s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0262s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000441s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001022s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003560s ]
+
+[ 2017-05-21T21:29:57+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=naqsz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006044s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0260s ]
+SQL: UPDATE `doctor` SET `password`='111' WHERE ( doctorid='cp' ) [ RunTime:0.0054s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001045s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005004s ]
+
+[ 2017-05-21T21:29:59+08:00 ] 127.0.0.1 /arms1/index.php?m=&&m=admin&c=index&a=nindex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004284s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000512s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001798s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007487s ]
+
+[ 2017-05-21T21:30:04+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=ntzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003230s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0249s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0253s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0246s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000679s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004992s ]
+
+[ 2017-05-21T21:30:41+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=nhzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003856s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0246s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '' AND `name` = ''  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000472s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001039s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003073s ]
+
+[ 2017-05-21T21:31:32+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=nhzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004012s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '' AND `name` = ''  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001494s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001872s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003060s ]
+
+[ 2017-05-21T21:34:31+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=nhzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003579s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '12121212' AND `name` = '小明'  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000676s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003682s ]
+
+[ 2017-05-21T21:43:23+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=nxxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002842s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0685s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0295s ]
+SQL: SELECT * FROM patient as a INNER JOIN treatment as b on b.patientid=a.idnumber INNER JOIN visit as c on c.treatmentid=b.treatmentid  WHERE `doctorid` = 'cp'  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000685s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003329s ]
+
+[ 2017-05-21T21:56:11+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=nhzcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002995s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0366s ]
+SQL: SELECT * FROM `patient` WHERE `idnumber` = '12121212' AND `name` = '小明'  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000305s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000774s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003787s ]
+
+[ 2017-05-21T21:56:39+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=nhzjg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003509s ]
+SQL: SHOW COLUMNS FROM `treatment` [ RunTime:0.0363s ]
+SQL: SELECT * FROM treatment as a INNER JOIN Visit as b on b.treatmentid=a.treatmentid  WHERE `visitconclusion1` = '' AND `doctorid` = 'cp' AND `patientid` = '12121212'  [ RunTime:0.0024s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\arms1\Application\Admin\Controller\IndexController.class.php 第 263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003518s ]
+
+[ 2017-05-21T21:56:51+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=nhzgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000165s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005322s ]
+SQL: SHOW COLUMNS FROM `treatment` [ RunTime:0.0275s ]
+SQL: INSERT INTO `treatment` (`patientid`,`doctorid`,`diagnosis1`,`treatmentplan1`,`diseaseassessment1`,`medicaltime`) VALUES ('12121212','cp','asdf','sdfg','cvb','2017-05-21') [ RunTime:0.0049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000731s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001884s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003288s ]
+
+[ 2017-05-21T21:56:55+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=nhzgl2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003574s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0268s ]
+SQL: INSERT INTO `visit` (`treatmentid`,`visittime`,`visitproject`) VALUES ('9','','ewretre') [ RunTime:0.0042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000660s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001935s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002757s ]
+

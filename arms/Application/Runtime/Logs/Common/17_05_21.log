@@ -1,0 +1,12 @@
+[ 2017-05-21T20:47:54+08:00 ] 127.0.0.1 /arms1/index.php?m=Application/Admin/View/Index&c=notmanager&a=index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001877s ]
+ERR: 无法加载模块:Application/Admin/View/Index
+
+[ 2017-05-21T20:51:30+08:00 ] 127.0.0.1 /arms1/index.php?m=Application/Admin/View/Index&c=notmanager&a=index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002279s ]
+ERR: 无法加载模块:Application/Admin/View/Index
+

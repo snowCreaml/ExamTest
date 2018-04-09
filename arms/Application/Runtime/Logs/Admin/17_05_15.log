@@ -1,0 +1,112 @@
+[ 2017-05-15T19:46:41+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004864s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000717s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014973s ]
+
+[ 2017-05-15T19:46:52+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004137s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0629s ]
+SQL: SELECT * FROM `doctor` WHERE `doctorid` = 'admin'  [ RunTime:0.1301s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000628s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004214s ]
+
+[ 2017-05-15T19:46:53+08:00 ] 127.0.0.1 /arms1/index.php?m=&&m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003871s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000853s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003553s ]
+
+[ 2017-05-15T19:47:03+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=index&a=aqsz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000168s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002860s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0693s ]
+SQL: UPDATE `doctor` SET `password`='admin' WHERE ( doctorid='admin' ) [ RunTime:0.3422s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\arms1\ThinkPHP\Common\functions.php 第 990 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000710s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003272s ]
+
+[ 2017-05-15T19:47:04+08:00 ] 127.0.0.1 /arms1/index.php?m=&&m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005821s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000680s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003761s ]
+

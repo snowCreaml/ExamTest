@@ -1,0 +1,241 @@
+[ 2017-09-03T09:26:22+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005195s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000800s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004354s ]
+
+[ 2017-09-03T09:27:01+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004038s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `doctor` WHERE `doctorid` = 'admin'  [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\arms\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\arms\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\arms\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\arms\ThinkPHP\Common\functions.php 第 990 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000619s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002963s ]
+
+[ 2017-09-03T09:27:02+08:00 ] 127.0.0.1 /arms/index.php?m=&&m=admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000176s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003116s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000619s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002067s ]
+
+[ 2017-09-03T09:27:11+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=tzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002294s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0694s ]
+SQL: SHOW COLUMNS FROM `visit` [ RunTime:0.0473s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0177s ]
+SQL: SELECT * FROM patient as a INNER JOIN Treatment as b on b.patientid=a.idnumber INNER JOIN Visit as c on c.treatmentid=b.treatmentid   [ RunTime:0.0482s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000315s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000895s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002348s ]
+
+[ 2017-09-03T09:27:22+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=yhgl1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002111s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `doctor`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000392s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001016s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002343s ]
+
+[ 2017-09-03T10:07:22+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000439s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006710s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000424s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006330s ]
+
+[ 2017-09-03T10:07:24+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003190s ]
+SQL: SHOW COLUMNS FROM `doctor` [ RunTime:0.1170s ]
+SQL: SELECT * FROM `doctor` WHERE `doctorid` = 'admin'  [ RunTime:0.0150s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\arms\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\arms\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\arms\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\arms\ThinkPHP\Common\functions.php 第 990 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000600s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002057s ]
+
+[ 2017-09-03T10:07:25+08:00 ] 127.0.0.1 /arms/index.php?m=&&m=admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002830s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000358s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000791s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001754s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004025s ]
+
+[ 2017-09-03T10:10:03+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003324s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0602s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.2690s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0468s ]
+ERR: 1062:Duplicate entry '1234' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `patient` (`patientid`,`name`,`sex`,`birthyear`,`birthmonth`,`birthday`,`idnumber`,`address`,`mobilephonenumber`,`phonenumber`,`wechatnumber`,`medicalhistory1`,`previoushistory1`,`familyhistory1`,`medicalhistory2`,`familyhistory2`,`reimbursementcategory`) VALUES ('1234','','男','0','0','0','1234','','','','','','','','./Public/Uploads/59ab647ab51bf.jpg','./Public/Uploads/59ab647ab51bf.jpg','1')
+ERR: 1062:Duplicate entry '1234' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `patient` (`patientid`,`name`,`sex`,`birthyear`,`birthmonth`,`birthday`,`idnumber`,`address`,`mobilephonenumber`,`phonenumber`,`wechatnumber`,`medicalhistory1`,`previoushistory1`,`familyhistory1`,`medicalhistory2`,`familyhistory2`,`reimbursementcategory`) VALUES ('1234','','男','0','0','0','1234','','','','','','','','./Public/Uploads/59ab647ab51bf.jpg','./Public/Uploads/59ab647ab51bf.jpg','1')
+
+[ 2017-09-03T10:36:00+08:00 ] 127.0.0.1 /arms/index.php?m=&&m=admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000579s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001548s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015977s ]
+
+[ 2017-09-03T10:36:57+08:00 ] 127.0.0.1 /arms/index.php?m=admin&c=index&a=hzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004532s ]
+SQL: SHOW COLUMNS FROM `patient` [ RunTime:0.0202s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\arms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `reimbursementcategory` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `reimbursementcategory` WHERE `reimbursementcategory` = 1  [ RunTime:0.0028s ]
+SQL: INSERT INTO `patient` (`patientid`,`name`,`sex`,`birthyear`,`birthmonth`,`birthday`,`idnumber`,`address`,`mobilephonenumber`,`phonenumber`,`wechatnumber`,`medicalhistory1`,`previoushistory1`,`familyhistory1`,`medicalhistory2`,`familyhistory2`,`reimbursementcategory`) VALUES ('432345','qwer','男','1992','1','7','432345','','','','','','','','./Public/Uploads/59ab6ac99d8e4.png','./Public/Uploads/59ab6ac99d8e4.png','1') [ RunTime:0.0605s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000694s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002826s ]
+

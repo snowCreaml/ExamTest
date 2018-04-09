@@ -1,0 +1,71 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta name="viewport" content="width=device-width"/>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="/arms/Public/js/admin/clock.js"></script>
+<link href="/arms/Public/css/admin/clock.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header class="main-header"  style="background-image: url(http://image.golaravel.com/5/c9/44e1c4e50d55159c65da6a41bc07e.jpg)"">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+
+                    <h1 align="left">乙型肝炎评估管理监测系统</h1>
+                    
+
+                    <img src="http://image.golaravel.com/e/b0/4e4bd788405aab87f03d26edc4ab4.png" alt="Laravel" class="hide">
+                </div>
+
+               
+            </div>
+        </div>
+    </header>
+<nav class="navbar navbar-default " role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+        <a class="navbar-brand" href="boss.html"></a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">导航条</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav" id="nav-list">
+                <li><a href="/arms/Application/Admin/View/Index/hzcx.html">患者管理</a></li>
+                <li><a href="/arms/index.php?m=admin&c=index&a=tzgl">通知管理</a></li>
+                <li><a href="/arms/Application/Admin/View/Index/aqsz.html">安全设置</a></li>
+                <li><a href="/arms/index.php?m=admin&c=index&a=yhgl1">用户管理</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+<h2>就诊信息</h2>
+<form action="/arms/index.php?m=admin&c=index&a=hzgl2" method="post">
+	<div class="form-inline">
+		<label for="date-input">复诊时间:</label>
+		<input type="text" class="form-control" id="date-input" name="visittime">
+    </div><br>
+	<div class="form-inline">
+		<label for="visitproject">复诊项目:</label>
+		<input type="text" class="form-control" id="visitproject" name="visitproject">
+    </div><br>
+<button class="btn" type="submit">完成</button>
+</form>
+</div>
+</body>
+
+</html>

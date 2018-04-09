@@ -1,0 +1,643 @@
+[ 2017-05-07T20:04:52+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005136s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001321s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001955s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004799s ]
+
+[ 2017-05-07T20:05:02+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005836s ]
+
+[ 2017-05-07T20:05:04+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003738s ]
+
+[ 2017-05-07T20:05:11+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000176s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003699s ]
+
+[ 2017-05-07T20:05:17+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002489s ]
+
+[ 2017-05-07T20:25:50+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003511s ]
+
+[ 2017-05-07T20:26:22+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007513s ]
+
+[ 2017-05-07T20:26:25+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003646s ]
+
+[ 2017-05-07T20:27:03+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008025s ]
+
+[ 2017-05-07T20:27:16+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003340s ]
+
+[ 2017-05-07T20:27:21+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007087s ]
+
+[ 2017-05-07T20:27:36+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003663s ]
+
+[ 2017-05-07T20:28:17+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000186s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003895s ]
+
+[ 2017-05-07T20:28:21+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003181s ]
+
+[ 2017-05-07T20:28:25+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003729s ]
+
+[ 2017-05-07T20:28:33+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004363s ]
+
+[ 2017-05-07T20:28:35+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004130s ]
+
+[ 2017-05-07T20:28:47+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000255s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005024s ]
+
+[ 2017-05-07T20:30:45+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003049s ]
+
+[ 2017-05-07T20:30:55+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000681s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003654s ]
+
+[ 2017-05-07T20:31:10+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005496s ]
+
+[ 2017-05-07T20:31:59+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003221s ]
+
+[ 2017-05-07T20:32:00+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003772s ]
+
+[ 2017-05-07T20:36:36+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003406s ]
+
+[ 2017-05-07T20:36:52+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003190s ]
+
+[ 2017-05-07T20:38:21+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003960s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000552s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001608s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003936s ]
+
+[ 2017-05-07T20:38:41+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004655s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'arms1'
+
+[ 2017-05-07T20:43:17+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003322s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'arms1'
+
+[ 2017-05-07T20:43:54+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004419s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000315s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003550s ]
+
+[ 2017-05-07T20:43:58+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003477s ]
+
+[ 2017-05-07T20:44:04+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002937s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'arms1'
+
+[ 2017-05-07T20:51:59+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003212s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000736s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003956s ]
+
+[ 2017-05-07T20:52:04+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003298s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'arms1'
+
+[ 2017-05-07T20:52:05+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003201s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'arms1'
+
+[ 2017-05-07T20:52:13+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002897s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'arms1'
+
+[ 2017-05-07T20:52:14+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006092s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'arms1'
+
+[ 2017-05-07T20:54:42+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000241s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002902s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000649s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003021s ]
+
+[ 2017-05-07T20:54:46+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002676s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'arms1'
+
+[ 2017-05-07T20:54:48+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002659s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'arms1'
+
+[ 2017-05-07T20:54:53+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000130s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003254s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'arms1'
+
+[ 2017-05-07T20:54:54+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005778s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'arms1'
+
+[ 2017-05-07T21:00:32+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005760s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000428s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003701s ]
+
+[ 2017-05-07T21:00:34+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003843s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'arms1'
+
+[ 2017-05-07T21:00:35+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004652s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'arms1'
+
+[ 2017-05-07T21:00:39+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003283s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'arms1'
+
+[ 2017-05-07T21:00:50+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004667s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\arms1\Application\Admin\Controller\LoginController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password D:\wamp\www\arms1\Application\Admin\Controller\LoginController.class.php 第 18 行.
+
+[ 2017-05-07T21:04:48+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006638s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000271s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000833s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003417s ]
+
+[ 2017-05-07T21:04:53+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004699s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'arms1'
+
+[ 2017-05-07T21:05:06+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000408s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001847s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007211s ]
+
+[ 2017-05-07T21:05:11+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003040s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'arms1'
+
+[ 2017-05-07T21:08:34+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000130s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003809s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000479s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006656s ]
+
+[ 2017-05-07T21:08:38+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003080s ]
+ERR: 1146:Table 'admin.cms_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_admin`
+ERR: 1146:Table 'admin.cms_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_admin`
+
+[ 2017-05-07T21:08:38+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002907s ]
+ERR: 1146:Table 'admin.cms_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_admin`
+ERR: 1146:Table 'admin.cms_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_admin`
+
+[ 2017-05-07T21:09:44+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000655s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001982s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011610s ]
+
+[ 2017-05-07T21:09:50+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007966s ]
+ERR: 1146:Table 'admin.cms_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_admin`
+ERR: 1146:Table 'admin.cms_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_admin`
+
+[ 2017-05-07T21:09:50+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000217s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004988s ]
+ERR: 1146:Table 'admin.cms_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_admin`
+ERR: 1146:Table 'admin.cms_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_admin`
+
+[ 2017-05-07T21:10:11+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002970s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\arms1\Application\Admin\Controller\LoginController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password D:\wamp\www\arms1\Application\Admin\Controller\LoginController.class.php 第 18 行.
+
+[ 2017-05-07T21:10:38+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002760s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\arms1\Application\Admin\Controller\LoginController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password D:\wamp\www\arms1\Application\Admin\Controller\LoginController.class.php 第 18 行.
+

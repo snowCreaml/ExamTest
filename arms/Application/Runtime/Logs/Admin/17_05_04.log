@@ -1,0 +1,1875 @@
+[ 2017-05-04T18:33:43+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003725s ]
+ERR: 无法加载控制器:Login
+
+[ 2017-05-04T18:50:58+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.018110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.018833s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012129s ]
+
+[ 2017-05-04T18:56:15+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002766s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000681s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007316s ]
+
+[ 2017-05-04T18:57:37+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004757s ]
+
+[ 2017-05-04T18:58:30+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004604s ]
+
+[ 2017-05-04T18:59:30+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005327s ]
+
+[ 2017-05-04T19:00:12+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004433s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000563s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004134s ]
+
+[ 2017-05-04T19:00:42+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003918s ]
+
+[ 2017-05-04T19:00:56+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003034s ]
+
+[ 2017-05-04T19:02:38+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003888s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000648s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003594s ]
+
+[ 2017-05-04T19:09:11+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004413s ]
+
+[ 2017-05-04T19:11:30+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004360s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000704s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003707s ]
+
+[ 2017-05-04T19:27:27+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003387s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000653s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003311s ]
+
+[ 2017-05-04T19:27:41+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004677s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000400s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002871s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006046s ]
+
+[ 2017-05-04T19:28:59+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003732s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000434s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001423s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003849s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005995s ]
+
+[ 2017-05-04T19:29:01+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003106s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000708s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003432s ]
+
+[ 2017-05-04T19:29:03+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004146s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000661s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004223s ]
+
+[ 2017-05-04T19:33:25+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000665s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003137s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003876s ]
+
+[ 2017-05-04T19:33:27+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004662s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000683s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003096s ]
+
+[ 2017-05-04T19:35:14+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004158s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000657s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010206s ]
+
+[ 2017-05-04T19:35:16+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003492s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000672s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003208s ]
+
+[ 2017-05-04T19:35:18+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003129s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000340s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004275s ]
+
+[ 2017-05-04T19:35:19+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003422s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000392s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003825s ]
+
+[ 2017-05-04T19:35:21+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000456s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000854s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005646s ]
+
+[ 2017-05-04T19:36:02+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005112s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000645s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002864s ]
+
+[ 2017-05-04T19:39:29+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009803s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000697s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004168s ]
+
+[ 2017-05-04T19:39:35+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002665s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000379s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001723s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002630s ]
+
+[ 2017-05-04T19:43:27+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002966s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000839s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003373s ]
+
+[ 2017-05-04T19:44:21+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000234s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002689s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000689s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003326s ]
+
+[ 2017-05-04T19:44:44+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004851s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000722s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029123s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002841s ]
+
+[ 2017-05-04T19:46:16+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000193s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007753s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000690s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004167s ]
+
+[ 2017-05-04T19:46:16+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008445s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000801s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003962s ]
+
+[ 2017-05-04T19:46:21+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007686s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000790s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004107s ]
+
+[ 2017-05-04T19:46:25+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004128s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000645s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003744s ]
+
+[ 2017-05-04T19:49:33+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003208s ]
+
+[ 2017-05-04T19:49:39+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000774s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003468s ]
+
+[ 2017-05-04T19:50:16+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000677s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003277s ]
+
+[ 2017-05-04T19:51:38+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000651s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004358s ]
+
+[ 2017-05-04T19:51:39+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003303s ]
+
+[ 2017-05-04T19:52:45+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000730s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002901s ]
+
+[ 2017-05-04T19:53:15+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000670s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004885s ]
+
+[ 2017-05-04T19:55:13+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003292s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000494s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003801s ]
+
+[ 2017-05-04T19:55:37+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000489s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003417s ]
+
+[ 2017-05-04T19:56:02+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000165s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003563s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000742s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001450s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005341s ]
+
+[ 2017-05-04T20:02:46+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003838s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000737s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003784s ]
+
+[ 2017-05-04T20:07:52+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000412s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000861s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005534s ]
+
+[ 2017-05-04T20:07:57+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003137s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000329s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000808s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003112s ]
+
+[ 2017-05-04T20:10:43+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003608s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000696s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006116s ]
+
+[ 2017-05-04T20:13:50+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000199s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005129s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000412s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000965s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001842s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004933s ]
+
+[ 2017-05-04T20:14:21+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005175s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000658s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002715s ]
+
+[ 2017-05-04T20:14:36+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000759s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005495s ]
+
+[ 2017-05-04T20:15:35+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002804s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000695s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003133s ]
+
+[ 2017-05-04T20:15:58+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000866s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003312s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000302s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000726s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004823s ]
+
+[ 2017-05-04T20:18:46+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004208s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000741s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002964s ]
+
+[ 2017-05-04T20:18:48+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003744s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000728s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004065s ]
+
+[ 2017-05-04T20:18:49+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002851s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000373s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000968s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002310s ]
+
+[ 2017-05-04T20:18:57+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005225s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000599s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008107s ]
+
+[ 2017-05-04T20:19:20+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004893s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000377s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000862s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004715s ]
+
+[ 2017-05-04T20:19:28+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008089s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000329s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000932s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003611s ]
+
+[ 2017-05-04T20:26:57+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000896s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003519s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000653s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004138s ]
+
+[ 2017-05-04T20:27:16+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003218s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000930s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004539s ]
+
+[ 2017-05-04T20:27:42+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000187s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005415s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000423s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006371s ]
+
+[ 2017-05-04T20:27:56+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003386s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000744s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005414s ]
+
+[ 2017-05-04T20:28:42+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006452s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000292s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000964s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004445s ]
+
+[ 2017-05-04T20:32:17+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001647s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000806s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002982s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006351s ]
+
+[ 2017-05-04T20:32:34+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000230s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013289s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000429s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004531s ]
+
+[ 2017-05-04T20:32:42+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000711s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002847s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004399s ]
+
+[ 2017-05-04T20:33:33+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000657s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008808s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000294s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000985s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003746s ]
+
+[ 2017-05-04T20:33:50+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000332s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000420s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003407s ]
+
+[ 2017-05-04T20:39:41+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000178s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000689s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003358s ]
+
+[ 2017-05-04T20:39:51+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006825s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000831s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001726s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003390s ]
+
+[ 2017-05-04T20:40:19+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003054s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000335s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000771s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003080s ]
+
+[ 2017-05-04T20:41:17+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000681s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005737s ]
+
+[ 2017-05-04T20:42:23+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004153s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000850s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006329s ]
+
+[ 2017-05-04T20:42:33+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000351s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007312s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000346s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001045s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007239s ]
+
+[ 2017-05-04T20:42:54+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005765s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000398s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009015s ]
+
+[ 2017-05-04T20:47:59+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004761s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000688s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007273s ]
+
+[ 2017-05-04T20:49:50+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002793s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000329s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000886s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003190s ]
+
+[ 2017-05-04T20:54:43+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004363s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000550s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003429s ]
+
+[ 2017-05-04T20:56:04+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000257s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003855s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000403s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009641s ]
+
+[ 2017-05-04T21:02:06+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005183s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003925s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005170s ]
+
+[ 2017-05-04T21:02:55+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000335s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005828s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000847s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001588s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005884s ]
+
+[ 2017-05-04T21:05:28+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000185s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000405s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004398s ]
+
+[ 2017-05-04T21:07:30+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003453s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000959s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005176s ]
+
+[ 2017-05-04T21:08:37+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000341s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005453s ]
+
+[ 2017-05-04T21:10:57+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003835s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000871s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003363s ]
+
+[ 2017-05-04T21:20:27+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005281s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000478s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002934s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004405s ]
+
+[ 2017-05-04T21:22:14+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005748s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000369s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000884s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001923s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002871s ]
+
+[ 2017-05-04T21:26:07+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000168s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005704s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002432s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002677s ]
+
+[ 2017-05-04T21:26:07+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000179s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005975s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000674s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003642s ]
+
+[ 2017-05-04T21:28:18+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003481s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000661s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004845s ]
+
+[ 2017-05-04T21:29:22+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000175s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004366s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000681s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004117s ]
+
+[ 2017-05-04T21:29:25+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004251s ]
+
+[ 2017-05-04T21:29:35+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004313s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000651s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003561s ]
+
+[ 2017-05-04T21:29:39+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005086s ]
+
+[ 2017-05-04T21:30:15+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000244s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005526s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000451s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005757s ]
+
+[ 2017-05-04T21:30:15+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005131s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000734s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003518s ]
+
+[ 2017-05-04T21:30:20+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004857s ]
+
+[ 2017-05-04T21:30:27+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003395s ]
+
+[ 2017-05-04T21:30:57+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004513s ]
+
+[ 2017-05-04T21:31:16+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003442s ]
+
+[ 2017-05-04T21:31:18+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003234s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000907s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003185s ]
+
+[ 2017-05-04T21:31:23+08:00 ] 127.0.0.1 /arms1/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003213s ]
+

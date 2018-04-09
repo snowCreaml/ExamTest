@@ -1,0 +1,1 @@
+D:\wamp\bin\php\php5.4.16\php.exe -q D:\wamp\www\arms\Public\php\smstest.php
